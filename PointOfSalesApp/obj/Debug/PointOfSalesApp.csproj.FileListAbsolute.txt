@@ -1,0 +1,38 @@
+C:\Users\MARCK IVAN\Desktop\pos\PointOfSalesApp\PointOfSalesApp\bin\Debug\PointOfSalesApp.exe.config
+C:\Users\MARCK IVAN\Desktop\pos\PointOfSalesApp\PointOfSalesApp\bin\Debug\PointOfSalesApp.exe
+C:\Users\MARCK IVAN\Desktop\pos\PointOfSalesApp\PointOfSalesApp\bin\Debug\PointOfSalesApp.pdb
+C:\Users\MARCK IVAN\Desktop\pos\PointOfSalesApp\PointOfSalesApp\bin\Debug\EntityFramework.dll
+C:\Users\MARCK IVAN\Desktop\pos\PointOfSalesApp\PointOfSalesApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MARCK IVAN\Desktop\pos\PointOfSalesApp\PointOfSalesApp\bin\Debug\MetroFramework.dll
+C:\Users\MARCK IVAN\Desktop\pos\PointOfSalesApp\PointOfSalesApp\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\MARCK IVAN\Desktop\pos\PointOfSalesApp\PointOfSalesApp\bin\Debug\EntityFramework.xml
+C:\Users\MARCK IVAN\Desktop\pos\PointOfSalesApp\PointOfSalesApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MARCK IVAN\Desktop\pos\PointOfSalesApp\PointOfSalesApp\obj\Debug\PointOfSalesApp.Form1.resources
+C:\Users\MARCK IVAN\Desktop\pos\PointOfSalesApp\PointOfSalesApp\obj\Debug\PointOfSalesApp.Properties.Resources.resources
+C:\Users\MARCK IVAN\Desktop\pos\PointOfSalesApp\PointOfSalesApp\obj\Debug\PointOfSalesApp.csproj.GenerateResource.Cache
+C:\Users\MARCK IVAN\Desktop\pos\PointOfSalesApp\PointOfSalesApp\obj\Debug\PointOfSalesApp.exe
+C:\Users\MARCK IVAN\Desktop\pos\PointOfSalesApp\PointOfSalesApp\obj\Debug\PointOfSalesApp.pdb
+C:\Users\MARCK IVAN\Desktop\pos\PointOfSalesApp\PointOfSalesApp\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\MARCK IVAN\Desktop\pos\PointOfSalesApp\PointOfSalesApp\obj\Debug\PointOfSalesApp.csprojResolveAssemblyReference.cache
+C:\Users\MARCK IVAN\Desktop\pos\PointOfSalesApp\PointOfSalesApp\obj\Debug\PointOfSalesApp.Main.MainForm.resources
+C:\Users\mcamama\Documents\GitHub\Point-Of-Sales_MOTORPOINT\PointOfSalesApp\PointOfSalesApp\bin\Debug\PointOfSalesApp.exe.config
+C:\Users\mcamama\Documents\GitHub\Point-Of-Sales_MOTORPOINT\PointOfSalesApp\PointOfSalesApp\bin\Debug\PointOfSalesApp.exe
+C:\Users\mcamama\Documents\GitHub\Point-Of-Sales_MOTORPOINT\PointOfSalesApp\PointOfSalesApp\bin\Debug\PointOfSalesApp.pdb
+C:\Users\mcamama\Documents\GitHub\Point-Of-Sales_MOTORPOINT\PointOfSalesApp\PointOfSalesApp\bin\Debug\EntityFramework.dll
+C:\Users\mcamama\Documents\GitHub\Point-Of-Sales_MOTORPOINT\PointOfSalesApp\PointOfSalesApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mcamama\Documents\GitHub\Point-Of-Sales_MOTORPOINT\PointOfSalesApp\PointOfSalesApp\bin\Debug\MetroFramework.dll
+C:\Users\mcamama\Documents\GitHub\Point-Of-Sales_MOTORPOINT\PointOfSalesApp\PointOfSalesApp\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\mcamama\Documents\GitHub\Point-Of-Sales_MOTORPOINT\PointOfSalesApp\PointOfSalesApp\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\mcamama\Documents\GitHub\Point-Of-Sales_MOTORPOINT\PointOfSalesApp\PointOfSalesApp\bin\Debug\EntityFramework.xml
+C:\Users\mcamama\Documents\GitHub\Point-Of-Sales_MOTORPOINT\PointOfSalesApp\PointOfSalesApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mcamama\Documents\GitHub\Point-Of-Sales_MOTORPOINT\PointOfSalesApp\PointOfSalesApp\obj\Debug\PointOfSalesApp.csprojResolveAssemblyReference.cache
+C:\Users\mcamama\Documents\GitHub\Point-Of-Sales_MOTORPOINT\PointOfSalesApp\PointOfSalesApp\obj\Debug\PointOfSalesApp.Form1.resources
+C:\Users\mcamama\Documents\GitHub\Point-Of-Sales_MOTORPOINT\PointOfSalesApp\PointOfSalesApp\obj\Debug\PointOfSalesApp.Properties.Resources.resources
+C:\Users\mcamama\Documents\GitHub\Point-Of-Sales_MOTORPOINT\PointOfSalesApp\PointOfSalesApp\obj\Debug\PointOfSalesApp.csproj.GenerateResource.Cache
+C:\Users\mcamama\Documents\GitHub\Point-Of-Sales_MOTORPOINT\PointOfSalesApp\PointOfSalesApp\obj\Debug\PointOfSalesApp.csproj.CoreCompileInputs.cache
+C:\Users\mcamama\Documents\GitHub\Point-Of-Sales_MOTORPOINT\PointOfSalesApp\PointOfSalesApp\obj\Debug\PointOfSalesApp.exe
+C:\Users\mcamama\Documents\GitHub\Point-Of-Sales_MOTORPOINT\PointOfSalesApp\PointOfSalesApp\obj\Debug\PointOfSalesApp.pdb
+C:\Users\mcamama\Documents\GitHub\Point-Of-Sales_MOTORPOINT\PointOfSalesApp\PointOfSalesApp\bin\Debug\ControlzEx.dll
+C:\Users\mcamama\Documents\GitHub\Point-Of-Sales_MOTORPOINT\PointOfSalesApp\PointOfSalesApp\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\mcamama\Documents\GitHub\Point-Of-Sales_MOTORPOINT\PointOfSalesApp\PointOfSalesApp\bin\Debug\ControlzEx.pdb
+C:\Users\mcamama\Documents\GitHub\Point-Of-Sales_MOTORPOINT\PointOfSalesApp\PointOfSalesApp\obj\Debug\PointOfSalesApp.Main.btnSearch.resources
