@@ -126,6 +126,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MetroFramework.txt" />
+    <None Include="Resources\Group 84.png" />
+    <None Include="Resources\Group 85.png" />
+    <None Include="Resources\Group 86.png" />
     <None Include="Resources\footer logo.png" />
     <None Include="Resources\Group 23.png" />
     <None Include="Resources\Group 24.png" />
