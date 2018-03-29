@@ -103,11 +103,6 @@
             this.tileProduct = new MetroFramework.Controls.MetroTile();
             this.tileTransactions = new MetroFramework.Controls.MetroTile();
             this.tileSales = new MetroFramework.Controls.MetroTile();
-            this.tileDeleteItemInv = new MetroFramework.Controls.MetroTile();
-            this.tileUpdateInv = new MetroFramework.Controls.MetroTile();
-            this.tileAddItemInv = new MetroFramework.Controls.MetroTile();
-            this.imgUser = new System.Windows.Forms.PictureBox();
-            this.imgFooterLogo = new System.Windows.Forms.PictureBox();
             this.userIconTrnsct = new System.Windows.Forms.PictureBox();
             this.imgUserLogout = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -120,6 +115,15 @@
             this.metroTile5 = new MetroFramework.Controls.MetroTile();
             this.tileClrCrt = new MetroFramework.Controls.MetroTile();
             this.tileVoid = new MetroFramework.Controls.MetroTile();
+            this.tileDeleteItemInv = new MetroFramework.Controls.MetroTile();
+            this.tileUpdateInv = new MetroFramework.Controls.MetroTile();
+            this.tileAddItemInv = new MetroFramework.Controls.MetroTile();
+            this.imgUser = new System.Windows.Forms.PictureBox();
+            this.imgFooterLogo = new System.Windows.Forms.PictureBox();
+            this.tileBusinessProfile = new MetroFramework.Controls.MetroTile();
+            this.tileAbout = new MetroFramework.Controls.MetroTile();
+            this.tileUsers = new MetroFramework.Controls.MetroTile();
+            this.tileReports = new MetroFramework.Controls.MetroTile();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.metroPanel1.SuspendLayout();
             this.Transaction.SuspendLayout();
@@ -136,14 +140,15 @@
             this.upperRightPnl.SuspendLayout();
             this.tabInventory.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridInventory)).BeginInit();
+            this.tabSettings.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.msmMain)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgUser)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgFooterLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.userIconTrnsct)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgUserLogout)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cartSideImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgUser)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgFooterLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -816,6 +821,10 @@
             // 
             // tabSettings
             // 
+            this.tabSettings.Controls.Add(this.tileBusinessProfile);
+            this.tabSettings.Controls.Add(this.tileAbout);
+            this.tabSettings.Controls.Add(this.tileUsers);
+            this.tabSettings.Controls.Add(this.tileReports);
             this.tabSettings.HorizontalScrollbarBarColor = true;
             this.tabSettings.Location = new System.Drawing.Point(4, 38);
             this.tabSettings.Name = "tabSettings";
@@ -947,63 +956,6 @@
             this.tileSales.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.tileSales.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
             this.tileSales.UseTileImage = true;
-            // 
-            // tileDeleteItemInv
-            // 
-            this.tileDeleteItemInv.CustomBackground = true;
-            this.tileDeleteItemInv.Location = new System.Drawing.Point(776, 515);
-            this.tileDeleteItemInv.Name = "tileDeleteItemInv";
-            this.tileDeleteItemInv.PaintTileCount = false;
-            this.tileDeleteItemInv.Size = new System.Drawing.Size(100, 96);
-            this.tileDeleteItemInv.TabIndex = 39;
-            this.tileDeleteItemInv.TileImage = global::PointOfSalesApp.Properties.Resources.Group_84;
-            this.tileDeleteItemInv.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.tileDeleteItemInv.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
-            this.tileDeleteItemInv.UseTileImage = true;
-            // 
-            // tileUpdateInv
-            // 
-            this.tileUpdateInv.CustomBackground = true;
-            this.tileUpdateInv.Location = new System.Drawing.Point(882, 515);
-            this.tileUpdateInv.Name = "tileUpdateInv";
-            this.tileUpdateInv.PaintTileCount = false;
-            this.tileUpdateInv.Size = new System.Drawing.Size(100, 96);
-            this.tileUpdateInv.TabIndex = 38;
-            this.tileUpdateInv.TileImage = global::PointOfSalesApp.Properties.Resources.Group_85;
-            this.tileUpdateInv.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.tileUpdateInv.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
-            this.tileUpdateInv.UseTileImage = true;
-            // 
-            // tileAddItemInv
-            // 
-            this.tileAddItemInv.CustomBackground = true;
-            this.tileAddItemInv.Location = new System.Drawing.Point(988, 515);
-            this.tileAddItemInv.Name = "tileAddItemInv";
-            this.tileAddItemInv.PaintTileCount = false;
-            this.tileAddItemInv.Size = new System.Drawing.Size(100, 96);
-            this.tileAddItemInv.TabIndex = 37;
-            this.tileAddItemInv.TileImage = global::PointOfSalesApp.Properties.Resources.Group_86;
-            this.tileAddItemInv.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.tileAddItemInv.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
-            this.tileAddItemInv.UseTileImage = true;
-            // 
-            // imgUser
-            // 
-            this.imgUser.Image = global::PointOfSalesApp.Properties.Resources.user1_icon;
-            this.imgUser.Location = new System.Drawing.Point(1130, 12);
-            this.imgUser.Name = "imgUser";
-            this.imgUser.Size = new System.Drawing.Size(31, 28);
-            this.imgUser.TabIndex = 30;
-            this.imgUser.TabStop = false;
-            // 
-            // imgFooterLogo
-            // 
-            this.imgFooterLogo.Image = global::PointOfSalesApp.Properties.Resources.footer_logo;
-            this.imgFooterLogo.Location = new System.Drawing.Point(211, 515);
-            this.imgFooterLogo.Name = "imgFooterLogo";
-            this.imgFooterLogo.Size = new System.Drawing.Size(445, 98);
-            this.imgFooterLogo.TabIndex = 33;
-            this.imgFooterLogo.TabStop = false;
             // 
             // userIconTrnsct
             // 
@@ -1141,6 +1093,115 @@
             this.tileVoid.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
             this.tileVoid.UseTileImage = true;
             // 
+            // tileDeleteItemInv
+            // 
+            this.tileDeleteItemInv.CustomBackground = true;
+            this.tileDeleteItemInv.Location = new System.Drawing.Point(776, 515);
+            this.tileDeleteItemInv.Name = "tileDeleteItemInv";
+            this.tileDeleteItemInv.PaintTileCount = false;
+            this.tileDeleteItemInv.Size = new System.Drawing.Size(100, 96);
+            this.tileDeleteItemInv.TabIndex = 39;
+            this.tileDeleteItemInv.TileImage = global::PointOfSalesApp.Properties.Resources.Group_84;
+            this.tileDeleteItemInv.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.tileDeleteItemInv.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.tileDeleteItemInv.UseTileImage = true;
+            // 
+            // tileUpdateInv
+            // 
+            this.tileUpdateInv.CustomBackground = true;
+            this.tileUpdateInv.Location = new System.Drawing.Point(882, 515);
+            this.tileUpdateInv.Name = "tileUpdateInv";
+            this.tileUpdateInv.PaintTileCount = false;
+            this.tileUpdateInv.Size = new System.Drawing.Size(100, 96);
+            this.tileUpdateInv.TabIndex = 38;
+            this.tileUpdateInv.TileImage = global::PointOfSalesApp.Properties.Resources.Group_85;
+            this.tileUpdateInv.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.tileUpdateInv.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.tileUpdateInv.UseTileImage = true;
+            // 
+            // tileAddItemInv
+            // 
+            this.tileAddItemInv.CustomBackground = true;
+            this.tileAddItemInv.Location = new System.Drawing.Point(988, 515);
+            this.tileAddItemInv.Name = "tileAddItemInv";
+            this.tileAddItemInv.PaintTileCount = false;
+            this.tileAddItemInv.Size = new System.Drawing.Size(100, 96);
+            this.tileAddItemInv.TabIndex = 37;
+            this.tileAddItemInv.TileImage = global::PointOfSalesApp.Properties.Resources.Group_86;
+            this.tileAddItemInv.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.tileAddItemInv.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.tileAddItemInv.UseTileImage = true;
+            // 
+            // imgUser
+            // 
+            this.imgUser.Image = global::PointOfSalesApp.Properties.Resources.user1_icon;
+            this.imgUser.Location = new System.Drawing.Point(1130, 12);
+            this.imgUser.Name = "imgUser";
+            this.imgUser.Size = new System.Drawing.Size(31, 28);
+            this.imgUser.TabIndex = 30;
+            this.imgUser.TabStop = false;
+            // 
+            // imgFooterLogo
+            // 
+            this.imgFooterLogo.Image = global::PointOfSalesApp.Properties.Resources.footer_logo;
+            this.imgFooterLogo.Location = new System.Drawing.Point(211, 515);
+            this.imgFooterLogo.Name = "imgFooterLogo";
+            this.imgFooterLogo.Size = new System.Drawing.Size(445, 98);
+            this.imgFooterLogo.TabIndex = 33;
+            this.imgFooterLogo.TabStop = false;
+            // 
+            // tileBusinessProfile
+            // 
+            this.tileBusinessProfile.Location = new System.Drawing.Point(838, 129);
+            this.tileBusinessProfile.Name = "tileBusinessProfile";
+            this.tileBusinessProfile.Size = new System.Drawing.Size(139, 281);
+            this.tileBusinessProfile.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tileBusinessProfile.TabIndex = 7;
+            this.tileBusinessProfile.Text = "Business Profile";
+            this.tileBusinessProfile.TileImage = global::PointOfSalesApp.Properties.Resources.motorpoint_logo_white;
+            this.tileBusinessProfile.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tileBusinessProfile.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.tileBusinessProfile.UseTileImage = true;
+            // 
+            // tileAbout
+            // 
+            this.tileAbout.Location = new System.Drawing.Point(470, 275);
+            this.tileAbout.Name = "tileAbout";
+            this.tileAbout.Size = new System.Drawing.Size(351, 135);
+            this.tileAbout.Style = MetroFramework.MetroColorStyle.Purple;
+            this.tileAbout.TabIndex = 6;
+            this.tileAbout.Text = "About";
+            this.tileAbout.TileImage = global::PointOfSalesApp.Properties.Resources.about;
+            this.tileAbout.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tileAbout.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.tileAbout.UseTileImage = true;
+            // 
+            // tileUsers
+            // 
+            this.tileUsers.Location = new System.Drawing.Point(470, 129);
+            this.tileUsers.Name = "tileUsers";
+            this.tileUsers.Size = new System.Drawing.Size(351, 135);
+            this.tileUsers.Style = MetroFramework.MetroColorStyle.Red;
+            this.tileUsers.TabIndex = 5;
+            this.tileUsers.Text = "Users";
+            this.tileUsers.TileImage = global::PointOfSalesApp.Properties.Resources._1users;
+            this.tileUsers.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tileUsers.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.tileUsers.UseTileImage = true;
+            // 
+            // tileReports
+            // 
+            this.tileReports.Location = new System.Drawing.Point(312, 129);
+            this.tileReports.Name = "tileReports";
+            this.tileReports.Size = new System.Drawing.Size(140, 281);
+            this.tileReports.Style = MetroFramework.MetroColorStyle.Yellow;
+            this.tileReports.TabIndex = 4;
+            this.tileReports.Text = "Reports";
+            this.tileReports.TileImage = global::PointOfSalesApp.Properties.Resources._1Reports;
+            this.tileReports.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tileReports.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.tileReports.UseTileImage = true;
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::PointOfSalesApp.Properties.Resources.cabildo_motor_parts_pos_icon16;
@@ -1192,14 +1253,15 @@
             this.tabInventory.ResumeLayout(false);
             this.tabInventory.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridInventory)).EndInit();
+            this.tabSettings.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.msmMain)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgUser)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgFooterLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.userIconTrnsct)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgUserLogout)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cartSideImg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgUser)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgFooterLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -1290,5 +1352,9 @@
         private MetroFramework.Controls.MetroTile tileUpdateInv;
         private MetroFramework.Controls.MetroTile tileDeleteItemInv;
         public System.Windows.Forms.ImageList imgList;
+        private MetroFramework.Controls.MetroTile tileUsers;
+        private MetroFramework.Controls.MetroTile tileReports;
+        private MetroFramework.Controls.MetroTile tileAbout;
+        private MetroFramework.Controls.MetroTile tileBusinessProfile;
     }
 }

@@ -63,6 +63,36 @@ namespace PointOfSalesApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1Reports {
+            get {
+                object obj = ResourceManager.GetObject("1Reports", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1users {
+            get {
+                object obj = ResourceManager.GetObject("1users", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap about {
+            get {
+                object obj = ResourceManager.GetObject("about", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap add_items {
             get {
                 object obj = ResourceManager.GetObject("add items", resourceCulture);
@@ -206,6 +236,16 @@ namespace PointOfSalesApp.Properties {
         internal static System.Drawing.Bitmap footer_logo {
             get {
                 object obj = ResourceManager.GetObject("footer logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Group_130 {
+            get {
+                object obj = ResourceManager.GetObject("Group 130", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -376,6 +416,16 @@ namespace PointOfSalesApp.Properties {
         internal static System.Drawing.Bitmap motorpoint_logo {
             get {
                 object obj = ResourceManager.GetObject("motorpoint logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap motorpoint_logo_white {
+            get {
+                object obj = ResourceManager.GetObject("motorpoint logo_white", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

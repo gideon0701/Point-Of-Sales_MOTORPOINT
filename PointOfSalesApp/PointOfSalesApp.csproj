@@ -144,6 +144,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MetroFramework.txt" />
+    <None Include="Resources\motorpoint logo_white.png" />
+    <None Include="Resources\about.png" />
+    <None Include="Resources\1users.png" />
+    <None Include="Resources\1Reports.png" />
     <None Include="Resources\update-icon%402x.png" />
     <None Include="Resources\update-icon.png" />
     <None Include="Resources\CLOSE ICON THIN.png" />
