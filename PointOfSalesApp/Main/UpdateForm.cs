@@ -10,24 +10,14 @@ using System.Windows.Forms;
 
 namespace PointOfSalesApp.Main
 {
-    public partial class MainFrm : MetroFramework.Forms.MetroForm
+    public partial class UpdateForm : MetroFramework.Forms.MetroForm
     {
-        public MainFrm()
+        public UpdateForm()
         {
             InitializeComponent();
         }
 
-        private void MainForm_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
+        private void UpdateForm_Load(object sender, EventArgs e)
         {
 
         }
