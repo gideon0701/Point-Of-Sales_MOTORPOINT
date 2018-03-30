@@ -30,108 +30,62 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Wholesale));
-            this.txtBoxUnitPriceUpd = new MetroFramework.Controls.MetroTextBox();
-            this.txtBoxItemDescUpd = new MetroFramework.Controls.MetroTextBox();
-            this.txtBoxProductID = new MetroFramework.Controls.MetroTextBox();
-            this.txtBoxQtyUpd = new MetroFramework.Controls.MetroTextBox();
-            this.tileScan = new MetroFramework.Controls.MetroTile();
-            this.tileTransactWh = new MetroFramework.Controls.MetroTile();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnCloseAddFormUpd = new System.Windows.Forms.Button();
+            this.txtBoxUnitPriceWh = new MetroFramework.Controls.MetroTextBox();
+            this.txtBoxItemDescWh = new MetroFramework.Controls.MetroTextBox();
+            this.txtBoxProductIDWh = new MetroFramework.Controls.MetroTextBox();
+            this.txtBoxQtyUpdWh = new MetroFramework.Controls.MetroTextBox();
             this.lblWhlTotal = new System.Windows.Forms.Label();
             this.imgList = new System.Windows.Forms.ImageList(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtBoxWhTotal = new MetroFramework.Controls.MetroTextBox();
-            this.txtBoxReceieved = new MetroFramework.Controls.MetroTextBox();
-            this.txtBoxChange = new MetroFramework.Controls.MetroTextBox();
+            this.txtBoxReceievedWh = new MetroFramework.Controls.MetroTextBox();
+            this.txtBoxChangeWh = new MetroFramework.Controls.MetroTextBox();
+            this.tileCompute = new MetroFramework.Controls.MetroTile();
+            this.btnCloseAddFormUpd = new System.Windows.Forms.Button();
+            this.tileScan = new MetroFramework.Controls.MetroTile();
+            this.tileTransactWh = new MetroFramework.Controls.MetroTile();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // txtBoxUnitPriceUpd
+            // txtBoxUnitPriceWh
             // 
-            this.txtBoxUnitPriceUpd.FontSize = MetroFramework.MetroTextBoxSize.Tall;
-            this.txtBoxUnitPriceUpd.Location = new System.Drawing.Point(410, 180);
-            this.txtBoxUnitPriceUpd.Name = "txtBoxUnitPriceUpd";
-            this.txtBoxUnitPriceUpd.Size = new System.Drawing.Size(252, 30);
-            this.txtBoxUnitPriceUpd.TabIndex = 3;
-            this.txtBoxUnitPriceUpd.Text = "Price per Unit";
+            this.txtBoxUnitPriceWh.FontSize = MetroFramework.MetroTextBoxSize.Tall;
+            this.txtBoxUnitPriceWh.Location = new System.Drawing.Point(410, 180);
+            this.txtBoxUnitPriceWh.Name = "txtBoxUnitPriceWh";
+            this.txtBoxUnitPriceWh.Size = new System.Drawing.Size(252, 30);
+            this.txtBoxUnitPriceWh.TabIndex = 3;
+            this.txtBoxUnitPriceWh.Text = "Price per Unit";
             // 
-            // txtBoxItemDescUpd
+            // txtBoxItemDescWh
             // 
-            this.txtBoxItemDescUpd.FontSize = MetroFramework.MetroTextBoxSize.Tall;
-            this.txtBoxItemDescUpd.Location = new System.Drawing.Point(410, 130);
-            this.txtBoxItemDescUpd.Name = "txtBoxItemDescUpd";
-            this.txtBoxItemDescUpd.Size = new System.Drawing.Size(252, 30);
-            this.txtBoxItemDescUpd.TabIndex = 2;
-            this.txtBoxItemDescUpd.TabStop = false;
-            this.txtBoxItemDescUpd.Text = "Particular";
+            this.txtBoxItemDescWh.FontSize = MetroFramework.MetroTextBoxSize.Tall;
+            this.txtBoxItemDescWh.Location = new System.Drawing.Point(410, 130);
+            this.txtBoxItemDescWh.Name = "txtBoxItemDescWh";
+            this.txtBoxItemDescWh.Size = new System.Drawing.Size(252, 30);
+            this.txtBoxItemDescWh.TabIndex = 2;
+            this.txtBoxItemDescWh.TabStop = false;
+            this.txtBoxItemDescWh.Text = "Particular";
             // 
-            // txtBoxProductID
+            // txtBoxProductIDWh
             // 
-            this.txtBoxProductID.FontSize = MetroFramework.MetroTextBoxSize.Tall;
-            this.txtBoxProductID.Location = new System.Drawing.Point(410, 80);
-            this.txtBoxProductID.Name = "txtBoxProductID";
-            this.txtBoxProductID.Size = new System.Drawing.Size(252, 30);
-            this.txtBoxProductID.TabIndex = 1;
-            this.txtBoxProductID.TabStop = false;
-            this.txtBoxProductID.Text = "Product ID";
+            this.txtBoxProductIDWh.FontSize = MetroFramework.MetroTextBoxSize.Tall;
+            this.txtBoxProductIDWh.Location = new System.Drawing.Point(410, 80);
+            this.txtBoxProductIDWh.Name = "txtBoxProductIDWh";
+            this.txtBoxProductIDWh.Size = new System.Drawing.Size(252, 30);
+            this.txtBoxProductIDWh.TabIndex = 1;
+            this.txtBoxProductIDWh.TabStop = false;
+            this.txtBoxProductIDWh.Text = "Product ID";
             // 
-            // txtBoxQtyUpd
+            // txtBoxQtyUpdWh
             // 
-            this.txtBoxQtyUpd.FontSize = MetroFramework.MetroTextBoxSize.Tall;
-            this.txtBoxQtyUpd.Location = new System.Drawing.Point(410, 231);
-            this.txtBoxQtyUpd.Name = "txtBoxQtyUpd";
-            this.txtBoxQtyUpd.Size = new System.Drawing.Size(252, 30);
-            this.txtBoxQtyUpd.TabIndex = 4;
-            this.txtBoxQtyUpd.Text = "Enter Quantity";
-            // 
-            // tileScan
-            // 
-            this.tileScan.CustomBackground = true;
-            this.tileScan.Location = new System.Drawing.Point(697, 80);
-            this.tileScan.Name = "tileScan";
-            this.tileScan.PaintTileCount = false;
-            this.tileScan.Size = new System.Drawing.Size(100, 96);
-            this.tileScan.TabIndex = 12;
-            this.tileScan.TileImage = global::PointOfSalesApp.Properties.Resources.btnScan;
-            this.tileScan.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.tileScan.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
-            this.tileScan.UseTileImage = true;
-            // 
-            // tileTransactWh
-            // 
-            this.tileTransactWh.CustomBackground = true;
-            this.tileTransactWh.Location = new System.Drawing.Point(697, 192);
-            this.tileTransactWh.Name = "tileTransactWh";
-            this.tileTransactWh.PaintTileCount = false;
-            this.tileTransactWh.Size = new System.Drawing.Size(100, 96);
-            this.tileTransactWh.TabIndex = 11;
-            this.tileTransactWh.TileImage = global::PointOfSalesApp.Properties.Resources.Group_71;
-            this.tileTransactWh.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.tileTransactWh.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
-            this.tileTransactWh.UseTileImage = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::PointOfSalesApp.Properties.Resources.wholesale_side;
-            this.pictureBox1.Location = new System.Drawing.Point(157, 80);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(202, 195);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // btnCloseAddFormUpd
-            // 
-            this.btnCloseAddFormUpd.BackgroundImage = global::PointOfSalesApp.Properties.Resources.CLOSE_ICON_THIN;
-            this.btnCloseAddFormUpd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnCloseAddFormUpd.FlatAppearance.BorderSize = 0;
-            this.btnCloseAddFormUpd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCloseAddFormUpd.Location = new System.Drawing.Point(888, 20);
-            this.btnCloseAddFormUpd.Name = "btnCloseAddFormUpd";
-            this.btnCloseAddFormUpd.Size = new System.Drawing.Size(28, 31);
-            this.btnCloseAddFormUpd.TabIndex = 13;
-            this.btnCloseAddFormUpd.UseVisualStyleBackColor = false;
+            this.txtBoxQtyUpdWh.FontSize = MetroFramework.MetroTextBoxSize.Tall;
+            this.txtBoxQtyUpdWh.Location = new System.Drawing.Point(410, 231);
+            this.txtBoxQtyUpdWh.Name = "txtBoxQtyUpdWh";
+            this.txtBoxQtyUpdWh.Size = new System.Drawing.Size(252, 30);
+            this.txtBoxQtyUpdWh.TabIndex = 4;
+            this.txtBoxQtyUpdWh.Text = "Enter Quantity";
             // 
             // lblWhlTotal
             // 
@@ -183,34 +137,97 @@
             this.txtBoxWhTotal.Location = new System.Drawing.Point(410, 301);
             this.txtBoxWhTotal.Name = "txtBoxWhTotal";
             this.txtBoxWhTotal.Size = new System.Drawing.Size(252, 30);
-            this.txtBoxWhTotal.TabIndex = 17;
+            this.txtBoxWhTotal.TabIndex = 6;
+            this.txtBoxWhTotal.TabStop = false;
             this.txtBoxWhTotal.Text = "total";
             // 
-            // txtBoxReceieved
+            // txtBoxReceievedWh
             // 
-            this.txtBoxReceieved.FontSize = MetroFramework.MetroTextBoxSize.Tall;
-            this.txtBoxReceieved.Location = new System.Drawing.Point(410, 347);
-            this.txtBoxReceieved.Name = "txtBoxReceieved";
-            this.txtBoxReceieved.Size = new System.Drawing.Size(252, 30);
-            this.txtBoxReceieved.TabIndex = 18;
-            this.txtBoxReceieved.Text = "received";
+            this.txtBoxReceievedWh.FontSize = MetroFramework.MetroTextBoxSize.Tall;
+            this.txtBoxReceievedWh.Location = new System.Drawing.Point(410, 347);
+            this.txtBoxReceievedWh.Name = "txtBoxReceievedWh";
+            this.txtBoxReceievedWh.Size = new System.Drawing.Size(252, 30);
+            this.txtBoxReceievedWh.TabIndex = 7;
+            this.txtBoxReceievedWh.Text = "received";
             // 
-            // txtBoxChange
+            // txtBoxChangeWh
             // 
-            this.txtBoxChange.FontSize = MetroFramework.MetroTextBoxSize.Tall;
-            this.txtBoxChange.Location = new System.Drawing.Point(410, 394);
-            this.txtBoxChange.Name = "txtBoxChange";
-            this.txtBoxChange.Size = new System.Drawing.Size(252, 30);
-            this.txtBoxChange.TabIndex = 19;
-            this.txtBoxChange.Text = "change";
+            this.txtBoxChangeWh.FontSize = MetroFramework.MetroTextBoxSize.Tall;
+            this.txtBoxChangeWh.Location = new System.Drawing.Point(410, 394);
+            this.txtBoxChangeWh.Name = "txtBoxChangeWh";
+            this.txtBoxChangeWh.Size = new System.Drawing.Size(252, 30);
+            this.txtBoxChangeWh.TabIndex = 9;
+            this.txtBoxChangeWh.TabStop = false;
+            this.txtBoxChangeWh.Text = "change";
+            // 
+            // tileCompute
+            // 
+            this.tileCompute.CustomBackground = true;
+            this.tileCompute.Location = new System.Drawing.Point(715, 204);
+            this.tileCompute.Name = "tileCompute";
+            this.tileCompute.PaintTileCount = false;
+            this.tileCompute.Size = new System.Drawing.Size(100, 96);
+            this.tileCompute.TabIndex = 5;
+            this.tileCompute.TileImage = global::PointOfSalesApp.Properties.Resources.btnCompute;
+            this.tileCompute.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.tileCompute.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.tileCompute.UseTileImage = true;
+            // 
+            // btnCloseAddFormUpd
+            // 
+            this.btnCloseAddFormUpd.BackgroundImage = global::PointOfSalesApp.Properties.Resources.CLOSE_ICON_THIN;
+            this.btnCloseAddFormUpd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnCloseAddFormUpd.FlatAppearance.BorderSize = 0;
+            this.btnCloseAddFormUpd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCloseAddFormUpd.Location = new System.Drawing.Point(888, 20);
+            this.btnCloseAddFormUpd.Name = "btnCloseAddFormUpd";
+            this.btnCloseAddFormUpd.Size = new System.Drawing.Size(28, 31);
+            this.btnCloseAddFormUpd.TabIndex = 13;
+            this.btnCloseAddFormUpd.UseVisualStyleBackColor = false;
+            // 
+            // tileScan
+            // 
+            this.tileScan.CustomBackground = true;
+            this.tileScan.Location = new System.Drawing.Point(715, 102);
+            this.tileScan.Name = "tileScan";
+            this.tileScan.PaintTileCount = false;
+            this.tileScan.Size = new System.Drawing.Size(100, 96);
+            this.tileScan.TabIndex = 0;
+            this.tileScan.TileImage = global::PointOfSalesApp.Properties.Resources.btnScan;
+            this.tileScan.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.tileScan.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.tileScan.UseTileImage = true;
+            // 
+            // tileTransactWh
+            // 
+            this.tileTransactWh.CustomBackground = true;
+            this.tileTransactWh.Location = new System.Drawing.Point(715, 306);
+            this.tileTransactWh.Name = "tileTransactWh";
+            this.tileTransactWh.PaintTileCount = false;
+            this.tileTransactWh.Size = new System.Drawing.Size(100, 96);
+            this.tileTransactWh.TabIndex = 8;
+            this.tileTransactWh.TileImage = global::PointOfSalesApp.Properties.Resources.Group_71;
+            this.tileTransactWh.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.tileTransactWh.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.tileTransactWh.UseTileImage = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::PointOfSalesApp.Properties.Resources.wholesale_side;
+            this.pictureBox1.Location = new System.Drawing.Point(157, 80);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(202, 195);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // Wholesale
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(953, 477);
-            this.Controls.Add(this.txtBoxChange);
-            this.Controls.Add(this.txtBoxReceieved);
+            this.Controls.Add(this.tileCompute);
+            this.Controls.Add(this.txtBoxChangeWh);
+            this.Controls.Add(this.txtBoxReceievedWh);
             this.Controls.Add(this.txtBoxWhTotal);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -218,10 +235,10 @@
             this.Controls.Add(this.btnCloseAddFormUpd);
             this.Controls.Add(this.tileScan);
             this.Controls.Add(this.tileTransactWh);
-            this.Controls.Add(this.txtBoxQtyUpd);
-            this.Controls.Add(this.txtBoxUnitPriceUpd);
-            this.Controls.Add(this.txtBoxItemDescUpd);
-            this.Controls.Add(this.txtBoxProductID);
+            this.Controls.Add(this.txtBoxQtyUpdWh);
+            this.Controls.Add(this.txtBoxUnitPriceWh);
+            this.Controls.Add(this.txtBoxItemDescWh);
+            this.Controls.Add(this.txtBoxProductIDWh);
             this.Controls.Add(this.pictureBox1);
             this.ForeColor = System.Drawing.Color.Red;
             this.Name = "Wholesale";
@@ -236,10 +253,10 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private MetroFramework.Controls.MetroTextBox txtBoxUnitPriceUpd;
-        private MetroFramework.Controls.MetroTextBox txtBoxItemDescUpd;
-        private MetroFramework.Controls.MetroTextBox txtBoxProductID;
-        private MetroFramework.Controls.MetroTextBox txtBoxQtyUpd;
+        private MetroFramework.Controls.MetroTextBox txtBoxUnitPriceWh;
+        private MetroFramework.Controls.MetroTextBox txtBoxItemDescWh;
+        private MetroFramework.Controls.MetroTextBox txtBoxProductIDWh;
+        private MetroFramework.Controls.MetroTextBox txtBoxQtyUpdWh;
         private MetroFramework.Controls.MetroTile tileTransactWh;
         private MetroFramework.Controls.MetroTile tileScan;
         private System.Windows.Forms.Button btnCloseAddFormUpd;
@@ -248,7 +265,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private MetroFramework.Controls.MetroTextBox txtBoxWhTotal;
-        private MetroFramework.Controls.MetroTextBox txtBoxReceieved;
-        private MetroFramework.Controls.MetroTextBox txtBoxChange;
+        private MetroFramework.Controls.MetroTextBox txtBoxReceievedWh;
+        private MetroFramework.Controls.MetroTextBox txtBoxChangeWh;
+        private MetroFramework.Controls.MetroTile tileCompute;
     }
 }

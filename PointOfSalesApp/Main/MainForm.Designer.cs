@@ -29,27 +29,31 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainFrm));
             this.appName2 = new System.Windows.Forms.Label();
             this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
             this.lblCalendar = new MetroFramework.Controls.MetroLabel();
-            this.Transaction = new MetroFramework.Controls.MetroTabControl();
-            this.tabDashboard = new MetroFramework.Controls.MetroTabPage();
-            this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.chartTransactions = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.metroTile4 = new MetroFramework.Controls.MetroTile();
-            this.tileTealTransact = new MetroFramework.Controls.MetroTile();
-            this.tileLimeSales = new MetroFramework.Controls.MetroTile();
+            this.tileCalendarIcon = new MetroFramework.Controls.MetroTile();
+            this.tabImgDashboard = new MetroFramework.Controls.MetroTile();
+            this.tileDshSales = new MetroFramework.Controls.MetroTabControl();
+            this.tabMain = new MetroFramework.Controls.MetroTabPage();
+            this.panelProducts = new MetroFramework.Controls.MetroPanel();
+            this.tileProducts = new MetroFramework.Controls.MetroTile();
+            this.panelSales = new MetroFramework.Controls.MetroPanel();
+            this.metroTile1 = new MetroFramework.Controls.MetroTile();
             this.tileCshReg = new MetroFramework.Controls.MetroTabPage();
             this.SrchBtn = new MetroFramework.Controls.MetroButton();
             this.txtBoxSearch = new MetroFramework.Controls.MetroTextBox();
@@ -79,77 +83,90 @@
             this.lblEmployeeIDtxt = new System.Windows.Forms.Label();
             this.lblStaffName = new System.Windows.Forms.Label();
             this.lblCashier = new System.Windows.Forms.Label();
+            this.userIconTrnsct = new System.Windows.Forms.PictureBox();
             this.metroPanel2 = new MetroFramework.Controls.MetroPanel();
+            this.imgUserLogout = new System.Windows.Forms.PictureBox();
             this.lblLogout = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.upperRightPnl = new MetroFramework.Controls.MetroPanel();
+            this.imgTransact = new System.Windows.Forms.PictureBox();
             this.lblTransaction = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.tileSortbyItem = new MetroFramework.Controls.MetroTile();
+            this.tileSortbyID = new MetroFramework.Controls.MetroTile();
+            this.tileAddToCart = new MetroFramework.Controls.MetroTile();
+            this.tileTransact = new MetroFramework.Controls.MetroTile();
+            this.tilePrntRcpt = new MetroFramework.Controls.MetroTile();
+            this.tileClrCrt = new MetroFramework.Controls.MetroTile();
+            this.tileVoid = new MetroFramework.Controls.MetroTile();
             this.tabInventory = new MetroFramework.Controls.MetroTabPage();
             this.btnSearchInv = new MetroFramework.Controls.MetroButton();
             this.txtBoxInvSearch = new MetroFramework.Controls.MetroTextBox();
             this.dataGridInventory = new System.Windows.Forms.DataGridView();
             this.lblLogout2 = new System.Windows.Forms.Label();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.tabSettings = new MetroFramework.Controls.MetroTabPage();
-            this.msmMain = new MetroFramework.Components.MetroStyleManager(this.components);
-            this.imgList = new System.Windows.Forms.ImageList(this.components);
-            this.metroStyleExtender1 = new MetroFramework.Components.MetroStyleExtender(this.components);
-            this.lblDateUpper = new MetroFramework.Controls.MetroLabel();
-            this.metroTile1 = new MetroFramework.Controls.MetroTile();
-            this.metroTile3 = new MetroFramework.Controls.MetroTile();
-            this.metroTile2 = new MetroFramework.Controls.MetroTile();
-            this.tileCalendarIcon = new MetroFramework.Controls.MetroTile();
-            this.tabImgDashboard = new MetroFramework.Controls.MetroTile();
-            this.tileProduct = new MetroFramework.Controls.MetroTile();
-            this.tileTransactions = new MetroFramework.Controls.MetroTile();
-            this.tileSales = new MetroFramework.Controls.MetroTile();
-            this.userIconTrnsct = new System.Windows.Forms.PictureBox();
-            this.imgUserLogout = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.cartSideImg = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.tileSortbyItem = new MetroFramework.Controls.MetroTile();
-            this.tileSortbyID = new MetroFramework.Controls.MetroTile();
-            this.tileAddToCart = new MetroFramework.Controls.MetroTile();
-            this.tileTransact = new MetroFramework.Controls.MetroTile();
-            this.metroTile5 = new MetroFramework.Controls.MetroTile();
-            this.tileClrCrt = new MetroFramework.Controls.MetroTile();
-            this.tileVoid = new MetroFramework.Controls.MetroTile();
             this.tileDeleteItemInv = new MetroFramework.Controls.MetroTile();
             this.tileUpdateInv = new MetroFramework.Controls.MetroTile();
             this.tileAddItemInv = new MetroFramework.Controls.MetroTile();
             this.imgUser = new System.Windows.Forms.PictureBox();
             this.imgFooterLogo = new System.Windows.Forms.PictureBox();
+            this.tabSettings = new MetroFramework.Controls.MetroTabPage();
+            this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.tileBusinessProfile = new MetroFramework.Controls.MetroTile();
             this.tileAbout = new MetroFramework.Controls.MetroTile();
             this.tileUsers = new MetroFramework.Controls.MetroTile();
-            this.tileReports = new MetroFramework.Controls.MetroTile();
+            this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chartTransactions = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.metroTile4 = new MetroFramework.Controls.MetroTile();
+            this.tileTealTransact = new MetroFramework.Controls.MetroTile();
+            this.tileLimeSales = new MetroFramework.Controls.MetroTile();
+            this.msmMain = new MetroFramework.Components.MetroStyleManager(this.components);
+            this.imgList = new System.Windows.Forms.ImageList(this.components);
+            this.metroStyleExtender1 = new MetroFramework.Components.MetroStyleExtender(this.components);
+            this.lblDateUpper = new MetroFramework.Controls.MetroLabel();
+            this.tabImgSettings = new MetroFramework.Controls.MetroTile();
+            this.tabImgInventory = new MetroFramework.Controls.MetroTile();
+            this.tabImgCshReg = new MetroFramework.Controls.MetroTile();
+            this.tileProduct = new MetroFramework.Controls.MetroTile();
+            this.tileTransactions = new MetroFramework.Controls.MetroTile();
+            this.tileSales = new MetroFramework.Controls.MetroTile();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.metroPanel3 = new MetroFramework.Controls.MetroPanel();
+            this.tileTrnsct = new MetroFramework.Controls.MetroTile();
+            this.salesChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.metroPanel1.SuspendLayout();
-            this.Transaction.SuspendLayout();
-            this.tabDashboard.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chartTransactions)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            this.tileDshSales.SuspendLayout();
+            this.tabMain.SuspendLayout();
+            this.panelProducts.SuspendLayout();
+            this.panelSales.SuspendLayout();
             this.tileCshReg.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGriManualSearch)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridTransaction)).BeginInit();
             this.metroPanel4.SuspendLayout();
             this.pnlEmployeeInfo.SuspendLayout();
-            this.metroPanel2.SuspendLayout();
-            this.upperRightPnl.SuspendLayout();
-            this.tabInventory.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridInventory)).BeginInit();
-            this.tabSettings.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.msmMain)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.userIconTrnsct)).BeginInit();
+            this.metroPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgUserLogout)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cartSideImg)).BeginInit();
+            this.upperRightPnl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgTransact)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.tabInventory.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridInventory)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgUser)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgFooterLogo)).BeginInit();
+            this.tabSettings.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartTransactions)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.msmMain)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.metroPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.salesChart)).BeginInit();
             this.SuspendLayout();
             // 
             // appName2
@@ -170,7 +187,7 @@
             this.metroPanel1.Controls.Add(this.lblCalendar);
             this.metroPanel1.Controls.Add(this.tileCalendarIcon);
             this.metroPanel1.Controls.Add(this.tabImgDashboard);
-            this.metroPanel1.Controls.Add(this.Transaction);
+            this.metroPanel1.Controls.Add(this.tileDshSales);
             this.metroPanel1.HorizontalScrollbarBarColor = true;
             this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
             this.metroPanel1.HorizontalScrollbarSize = 10;
@@ -191,131 +208,121 @@
             this.lblCalendar.TabIndex = 10;
             this.lblCalendar.Text = "Today is";
             // 
-            // Transaction
+            // tileCalendarIcon
             // 
-            this.Transaction.Controls.Add(this.tabDashboard);
-            this.Transaction.Controls.Add(this.tileCshReg);
-            this.Transaction.Controls.Add(this.tabInventory);
-            this.Transaction.Controls.Add(this.tabSettings);
-            this.Transaction.FontSize = MetroFramework.MetroTabControlSize.Tall;
-            this.Transaction.FontWeight = MetroFramework.MetroTabControlWeight.Regular;
-            this.Transaction.ItemSize = new System.Drawing.Size(135, 34);
-            this.Transaction.Location = new System.Drawing.Point(15, 22);
-            this.Transaction.Name = "Transaction";
-            this.Transaction.SelectedIndex = 1;
-            this.Transaction.Size = new System.Drawing.Size(1301, 682);
-            this.Transaction.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.Transaction.Style = MetroFramework.MetroColorStyle.Green;
-            this.Transaction.TabIndex = 2;
+            this.tileCalendarIcon.CustomBackground = true;
+            this.tileCalendarIcon.CustomForeColor = true;
+            this.tileCalendarIcon.Location = new System.Drawing.Point(970, 5);
+            this.tileCalendarIcon.Name = "tileCalendarIcon";
+            this.tileCalendarIcon.Size = new System.Drawing.Size(64, 49);
+            this.tileCalendarIcon.TabIndex = 10;
+            this.tileCalendarIcon.Text = "                ";
+            this.tileCalendarIcon.TileImage = global::PointOfSalesApp.Properties.Resources.calendar_2x1;
+            this.tileCalendarIcon.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tileCalendarIcon.UseTileImage = true;
             // 
-            // tabDashboard
+            // tabImgDashboard
             // 
-            this.tabDashboard.Controls.Add(this.chart2);
-            this.tabDashboard.Controls.Add(this.chartTransactions);
-            this.tabDashboard.Controls.Add(this.chart1);
-            this.tabDashboard.Controls.Add(this.metroTile4);
-            this.tabDashboard.Controls.Add(this.tileTealTransact);
-            this.tabDashboard.Controls.Add(this.tileLimeSales);
-            this.tabDashboard.Controls.Add(this.tileProduct);
-            this.tabDashboard.Controls.Add(this.tileTransactions);
-            this.tabDashboard.Controls.Add(this.tileSales);
-            this.tabDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabDashboard.HorizontalScrollbarBarColor = true;
-            this.tabDashboard.Location = new System.Drawing.Point(4, 38);
-            this.tabDashboard.Name = "tabDashboard";
-            this.tabDashboard.Size = new System.Drawing.Size(1293, 640);
-            this.tabDashboard.TabIndex = 0;
-            this.tabDashboard.Text = "      Dashboard";
-            this.tabDashboard.VerticalScrollbarBarColor = true;
+            this.tabImgDashboard.CustomBackground = true;
+            this.tabImgDashboard.CustomForeColor = true;
+            this.tabImgDashboard.Location = new System.Drawing.Point(20, 29);
+            this.tabImgDashboard.Name = "tabImgDashboard";
+            this.tabImgDashboard.Size = new System.Drawing.Size(28, 27);
+            this.tabImgDashboard.TabIndex = 2;
+            this.tabImgDashboard.TileImage = global::PointOfSalesApp.Properties.Resources.dasboard_2;
+            this.tabImgDashboard.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tabImgDashboard.UseTileImage = true;
             // 
-            // chart2
+            // tileDshSales
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chart2.ChartAreas.Add(chartArea1);
-            legend1.Enabled = false;
-            legend1.Name = "Legend1";
-            this.chart2.Legends.Add(legend1);
-            this.chart2.Location = new System.Drawing.Point(914, 190);
-            this.chart2.Name = "chart2";
-            this.chart2.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
-            this.chart2.PaletteCustomColors = new System.Drawing.Color[] {
-        System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))))};
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            series1.ShadowColor = System.Drawing.Color.DimGray;
-            this.chart2.Series.Add(series1);
-            this.chart2.Size = new System.Drawing.Size(362, 238);
-            this.chart2.TabIndex = 10;
-            this.chart2.Text = "chart2";
+            this.tileDshSales.Controls.Add(this.tabMain);
+            this.tileDshSales.Controls.Add(this.tileCshReg);
+            this.tileDshSales.Controls.Add(this.tabInventory);
+            this.tileDshSales.Controls.Add(this.tabSettings);
+            this.tileDshSales.FontSize = MetroFramework.MetroTabControlSize.Tall;
+            this.tileDshSales.FontWeight = MetroFramework.MetroTabControlWeight.Regular;
+            this.tileDshSales.ItemSize = new System.Drawing.Size(135, 34);
+            this.tileDshSales.Location = new System.Drawing.Point(15, 22);
+            this.tileDshSales.Name = "tileDshSales";
+            this.tileDshSales.SelectedIndex = 0;
+            this.tileDshSales.Size = new System.Drawing.Size(1301, 682);
+            this.tileDshSales.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.tileDshSales.Style = MetroFramework.MetroColorStyle.Green;
+            this.tileDshSales.TabIndex = 2;
             // 
-            // chartTransactions
+            // tabMain
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chartTransactions.ChartAreas.Add(chartArea2);
-            legend2.Enabled = false;
-            legend2.Name = "Legend1";
-            this.chartTransactions.Legends.Add(legend2);
-            this.chartTransactions.Location = new System.Drawing.Point(465, 190);
-            this.chartTransactions.Name = "chartTransactions";
-            this.chartTransactions.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Pastel;
-            this.chartTransactions.PaletteCustomColors = new System.Drawing.Color[] {
-        System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))))};
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            series2.ShadowColor = System.Drawing.Color.DimGray;
-            this.chartTransactions.Series.Add(series2);
-            this.chartTransactions.Size = new System.Drawing.Size(362, 238);
-            this.chartTransactions.TabIndex = 9;
-            this.chartTransactions.Text = "chart2";
+            this.tabMain.Controls.Add(this.salesChart);
+            this.tabMain.Controls.Add(this.metroPanel3);
+            this.tabMain.Controls.Add(this.panelProducts);
+            this.tabMain.Controls.Add(this.panelSales);
+            this.tabMain.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabMain.HorizontalScrollbarBarColor = true;
+            this.tabMain.Location = new System.Drawing.Point(4, 38);
+            this.tabMain.Name = "tabMain";
+            this.tabMain.Size = new System.Drawing.Size(1293, 640);
+            this.tabMain.TabIndex = 0;
+            this.tabMain.Text = "      Dashboard";
+            this.tabMain.VerticalScrollbarBarColor = true;
             // 
-            // chart1
+            // panelProducts
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea3);
-            legend3.Enabled = false;
-            legend3.Name = "Legend1";
-            this.chart1.Legends.Add(legend3);
-            this.chart1.Location = new System.Drawing.Point(27, 190);
-            this.chart1.Name = "chart1";
-            this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Bright;
-            this.chart1.PaletteCustomColors = new System.Drawing.Color[] {
-        System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))))};
-            series3.ChartArea = "ChartArea1";
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            series3.ShadowColor = System.Drawing.Color.DimGray;
-            this.chart1.Series.Add(series3);
-            this.chart1.Size = new System.Drawing.Size(362, 238);
-            this.chart1.TabIndex = 8;
-            this.chart1.Text = "chart1";
+            this.panelProducts.BackColor = System.Drawing.Color.Firebrick;
+            this.panelProducts.Controls.Add(this.tileProducts);
+            this.panelProducts.CustomBackground = true;
+            this.panelProducts.HorizontalScrollbarBarColor = true;
+            this.panelProducts.HorizontalScrollbarHighlightOnWheel = false;
+            this.panelProducts.HorizontalScrollbarSize = 10;
+            this.panelProducts.Location = new System.Drawing.Point(898, 26);
+            this.panelProducts.Name = "panelProducts";
+            this.panelProducts.Size = new System.Drawing.Size(347, 124);
+            this.panelProducts.TabIndex = 3;
+            this.panelProducts.VerticalScrollbarBarColor = true;
+            this.panelProducts.VerticalScrollbarHighlightOnWheel = false;
+            this.panelProducts.VerticalScrollbarSize = 10;
             // 
-            // metroTile4
+            // tileProducts
             // 
-            this.metroTile4.Location = new System.Drawing.Point(882, 101);
-            this.metroTile4.Name = "metroTile4";
-            this.metroTile4.Size = new System.Drawing.Size(408, 12);
-            this.metroTile4.Style = MetroFramework.MetroColorStyle.Orange;
-            this.metroTile4.TabIndex = 7;
+            this.tileProducts.BackColor = System.Drawing.Color.Red;
+            this.tileProducts.Location = new System.Drawing.Point(0, 0);
+            this.tileProducts.Name = "tileProducts";
+            this.tileProducts.Size = new System.Drawing.Size(347, 109);
+            this.tileProducts.Style = MetroFramework.MetroColorStyle.Red;
+            this.tileProducts.TabIndex = 8;
+            this.tileProducts.Text = "Products";
+            this.tileProducts.TileImage = global::PointOfSalesApp.Properties.Resources.prodicts;
+            this.tileProducts.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tileProducts.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.tileProducts.UseTileImage = true;
             // 
-            // tileTealTransact
+            // panelSales
             // 
-            this.tileTealTransact.Location = new System.Drawing.Point(450, 101);
-            this.tileTealTransact.Name = "tileTealTransact";
-            this.tileTealTransact.Size = new System.Drawing.Size(408, 12);
-            this.tileTealTransact.Style = MetroFramework.MetroColorStyle.Teal;
-            this.tileTealTransact.TabIndex = 6;
+            this.panelSales.BackColor = System.Drawing.Color.Green;
+            this.panelSales.Controls.Add(this.metroTile1);
+            this.panelSales.CustomBackground = true;
+            this.panelSales.HorizontalScrollbarBarColor = true;
+            this.panelSales.HorizontalScrollbarHighlightOnWheel = false;
+            this.panelSales.HorizontalScrollbarSize = 10;
+            this.panelSales.Location = new System.Drawing.Point(97, 26);
+            this.panelSales.Name = "panelSales";
+            this.panelSales.Size = new System.Drawing.Size(347, 124);
+            this.panelSales.TabIndex = 2;
+            this.panelSales.VerticalScrollbarBarColor = true;
+            this.panelSales.VerticalScrollbarHighlightOnWheel = false;
+            this.panelSales.VerticalScrollbarSize = 10;
             // 
-            // tileLimeSales
+            // metroTile1
             // 
-            this.tileLimeSales.Location = new System.Drawing.Point(17, 101);
-            this.tileLimeSales.Name = "tileLimeSales";
-            this.tileLimeSales.Size = new System.Drawing.Size(408, 12);
-            this.tileLimeSales.Style = MetroFramework.MetroColorStyle.Lime;
-            this.tileLimeSales.TabIndex = 5;
+            this.metroTile1.Location = new System.Drawing.Point(0, 0);
+            this.metroTile1.Name = "metroTile1";
+            this.metroTile1.Size = new System.Drawing.Size(347, 109);
+            this.metroTile1.Style = MetroFramework.MetroColorStyle.Green;
+            this.metroTile1.TabIndex = 8;
+            this.metroTile1.Text = "Users";
+            this.metroTile1.TileImage = global::PointOfSalesApp.Properties.Resources.sales;
+            this.metroTile1.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.metroTile1.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.metroTile1.UseTileImage = true;
             // 
             // tileCshReg
             // 
@@ -346,7 +353,7 @@
             this.tileCshReg.Controls.Add(this.tileSortbyID);
             this.tileCshReg.Controls.Add(this.tileAddToCart);
             this.tileCshReg.Controls.Add(this.tileTransact);
-            this.tileCshReg.Controls.Add(this.metroTile5);
+            this.tileCshReg.Controls.Add(this.tilePrntRcpt);
             this.tileCshReg.Controls.Add(this.tileClrCrt);
             this.tileCshReg.Controls.Add(this.tileVoid);
             this.tileCshReg.HorizontalScrollbarBarColor = true;
@@ -604,7 +611,6 @@
             this.lblInvoiceNumInt.Size = new System.Drawing.Size(70, 21);
             this.lblInvoiceNumInt.TabIndex = 12;
             this.lblInvoiceNumInt.Text = "00-0000";
-            this.lblInvoiceNumInt.Click += new System.EventHandler(this.label5_Click);
             // 
             // lblInvoiceNumTxt
             // 
@@ -630,7 +636,7 @@
             // 
             this.lblEmpNum.AutoSize = true;
             this.lblEmpNum.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmpNum.Location = new System.Drawing.Point(91, 146);
+            this.lblEmpNum.Location = new System.Drawing.Point(91, 152);
             this.lblEmpNum.Name = "lblEmpNum";
             this.lblEmpNum.Size = new System.Drawing.Size(16, 17);
             this.lblEmpNum.TabIndex = 8;
@@ -659,7 +665,7 @@
             // 
             this.lblEmployeeIDtxt.AutoSize = true;
             this.lblEmployeeIDtxt.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmployeeIDtxt.Location = new System.Drawing.Point(6, 78);
+            this.lblEmployeeIDtxt.Location = new System.Drawing.Point(6, 85);
             this.lblEmployeeIDtxt.Name = "lblEmployeeIDtxt";
             this.lblEmployeeIDtxt.Size = new System.Drawing.Size(84, 17);
             this.lblEmployeeIDtxt.TabIndex = 7;
@@ -669,22 +675,30 @@
             // 
             this.lblStaffName.AutoSize = true;
             this.lblStaffName.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStaffName.Location = new System.Drawing.Point(4, 61);
+            this.lblStaffName.Location = new System.Drawing.Point(4, 71);
             this.lblStaffName.Name = "lblStaffName";
             this.lblStaffName.Size = new System.Drawing.Size(114, 17);
             this.lblStaffName.TabIndex = 6;
             this.lblStaffName.Text = "Insert Name here";
-            this.lblStaffName.Click += new System.EventHandler(this.label2_Click);
             // 
             // lblCashier
             // 
             this.lblCashier.AutoSize = true;
             this.lblCashier.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCashier.Location = new System.Drawing.Point(35, 45);
+            this.lblCashier.Location = new System.Drawing.Point(35, 56);
             this.lblCashier.Name = "lblCashier";
             this.lblCashier.Size = new System.Drawing.Size(51, 17);
             this.lblCashier.TabIndex = 5;
             this.lblCashier.Text = "Cashier";
+            // 
+            // userIconTrnsct
+            // 
+            this.userIconTrnsct.Image = global::PointOfSalesApp.Properties.Resources.user1_icon_2x;
+            this.userIconTrnsct.Location = new System.Drawing.Point(31, 2);
+            this.userIconTrnsct.Name = "userIconTrnsct";
+            this.userIconTrnsct.Size = new System.Drawing.Size(59, 55);
+            this.userIconTrnsct.TabIndex = 5;
+            this.userIconTrnsct.TabStop = false;
             // 
             // metroPanel2
             // 
@@ -704,6 +718,15 @@
             this.metroPanel2.VerticalScrollbarBarColor = true;
             this.metroPanel2.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel2.VerticalScrollbarSize = 10;
+            // 
+            // imgUserLogout
+            // 
+            this.imgUserLogout.Image = global::PointOfSalesApp.Properties.Resources.user1_icon;
+            this.imgUserLogout.Location = new System.Drawing.Point(705, 11);
+            this.imgUserLogout.Name = "imgUserLogout";
+            this.imgUserLogout.Size = new System.Drawing.Size(31, 28);
+            this.imgUserLogout.TabIndex = 28;
+            this.imgUserLogout.TabStop = false;
             // 
             // lblLogout
             // 
@@ -725,10 +748,19 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Manual Search";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::PointOfSalesApp.Properties.Resources.Group_136;
+            this.pictureBox2.Location = new System.Drawing.Point(2, 1);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(55, 50);
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            // 
             // upperRightPnl
             // 
+            this.upperRightPnl.Controls.Add(this.imgTransact);
             this.upperRightPnl.Controls.Add(this.lblTransaction);
-            this.upperRightPnl.Controls.Add(this.cartSideImg);
             this.upperRightPnl.CustomBackground = true;
             this.upperRightPnl.HorizontalScrollbarBarColor = true;
             this.upperRightPnl.HorizontalScrollbarHighlightOnWheel = false;
@@ -742,6 +774,15 @@
             this.upperRightPnl.VerticalScrollbarHighlightOnWheel = false;
             this.upperRightPnl.VerticalScrollbarSize = 10;
             // 
+            // imgTransact
+            // 
+            this.imgTransact.Image = global::PointOfSalesApp.Properties.Resources.Group_20;
+            this.imgTransact.Location = new System.Drawing.Point(3, 0);
+            this.imgTransact.Name = "imgTransact";
+            this.imgTransact.Size = new System.Drawing.Size(55, 50);
+            this.imgTransact.TabIndex = 4;
+            this.imgTransact.TabStop = false;
+            // 
             // lblTransaction
             // 
             this.lblTransaction.AutoSize = true;
@@ -751,6 +792,107 @@
             this.lblTransaction.Size = new System.Drawing.Size(163, 40);
             this.lblTransaction.TabIndex = 3;
             this.lblTransaction.Text = "Transaction";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::PointOfSalesApp.Properties.Resources.footer_logo;
+            this.pictureBox3.InitialImage = global::PointOfSalesApp.Properties.Resources.footer_logo;
+            this.pictureBox3.Location = new System.Drawing.Point(460, 529);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(445, 98);
+            this.pictureBox3.TabIndex = 34;
+            this.pictureBox3.TabStop = false;
+            // 
+            // tileSortbyItem
+            // 
+            this.tileSortbyItem.CustomBackground = true;
+            this.tileSortbyItem.Location = new System.Drawing.Point(961, 529);
+            this.tileSortbyItem.Name = "tileSortbyItem";
+            this.tileSortbyItem.PaintTileCount = false;
+            this.tileSortbyItem.Size = new System.Drawing.Size(100, 96);
+            this.tileSortbyItem.TabIndex = 14;
+            this.tileSortbyItem.TileImage = global::PointOfSalesApp.Properties.Resources.Group_23;
+            this.tileSortbyItem.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.tileSortbyItem.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.tileSortbyItem.UseTileImage = true;
+            // 
+            // tileSortbyID
+            // 
+            this.tileSortbyID.CustomBackground = true;
+            this.tileSortbyID.Location = new System.Drawing.Point(1067, 529);
+            this.tileSortbyID.Name = "tileSortbyID";
+            this.tileSortbyID.PaintTileCount = false;
+            this.tileSortbyID.Size = new System.Drawing.Size(100, 96);
+            this.tileSortbyID.TabIndex = 13;
+            this.tileSortbyID.TileImage = global::PointOfSalesApp.Properties.Resources.Group_24;
+            this.tileSortbyID.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.tileSortbyID.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.tileSortbyID.UseTileImage = true;
+            // 
+            // tileAddToCart
+            // 
+            this.tileAddToCart.CustomBackground = true;
+            this.tileAddToCart.Location = new System.Drawing.Point(1173, 529);
+            this.tileAddToCart.Name = "tileAddToCart";
+            this.tileAddToCart.PaintTileCount = false;
+            this.tileAddToCart.Size = new System.Drawing.Size(100, 96);
+            this.tileAddToCart.TabIndex = 12;
+            this.tileAddToCart.TileImage = global::PointOfSalesApp.Properties.Resources.Group_76;
+            this.tileAddToCart.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.tileAddToCart.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.tileAddToCart.UseTileImage = true;
+            // 
+            // tileTransact
+            // 
+            this.tileTransact.CustomBackground = true;
+            this.tileTransact.Location = new System.Drawing.Point(325, 540);
+            this.tileTransact.Name = "tileTransact";
+            this.tileTransact.PaintTileCount = false;
+            this.tileTransact.Size = new System.Drawing.Size(100, 96);
+            this.tileTransact.TabIndex = 5;
+            this.tileTransact.TileImage = global::PointOfSalesApp.Properties.Resources.Group_71;
+            this.tileTransact.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.tileTransact.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.tileTransact.UseTileImage = true;
+            // 
+            // tilePrntRcpt
+            // 
+            this.tilePrntRcpt.CustomBackground = true;
+            this.tilePrntRcpt.Location = new System.Drawing.Point(219, 540);
+            this.tilePrntRcpt.Name = "tilePrntRcpt";
+            this.tilePrntRcpt.PaintTileCount = false;
+            this.tilePrntRcpt.Size = new System.Drawing.Size(100, 96);
+            this.tilePrntRcpt.TabIndex = 6;
+            this.tilePrntRcpt.TileImage = global::PointOfSalesApp.Properties.Resources.Group_72;
+            this.tilePrntRcpt.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.tilePrntRcpt.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.tilePrntRcpt.UseTileImage = true;
+            // 
+            // tileClrCrt
+            // 
+            this.tileClrCrt.CustomBackground = true;
+            this.tileClrCrt.Location = new System.Drawing.Point(113, 540);
+            this.tileClrCrt.Name = "tileClrCrt";
+            this.tileClrCrt.PaintTileCount = false;
+            this.tileClrCrt.Size = new System.Drawing.Size(100, 96);
+            this.tileClrCrt.TabIndex = 7;
+            this.tileClrCrt.TileImage = global::PointOfSalesApp.Properties.Resources.Group_73;
+            this.tileClrCrt.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.tileClrCrt.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.tileClrCrt.UseTileImage = true;
+            // 
+            // tileVoid
+            // 
+            this.tileVoid.CustomBackground = true;
+            this.tileVoid.Location = new System.Drawing.Point(7, 540);
+            this.tileVoid.Name = "tileVoid";
+            this.tileVoid.PaintTileCount = false;
+            this.tileVoid.Size = new System.Drawing.Size(100, 96);
+            this.tileVoid.TabIndex = 8;
+            this.tileVoid.TileImage = global::PointOfSalesApp.Properties.Resources.wholesale;
+            this.tileVoid.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.tileVoid.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.tileVoid.UseTileImage = true;
             // 
             // tabInventory
             // 
@@ -819,280 +961,6 @@
             this.metroLabel1.TabIndex = 2;
             this.metroLabel1.Text = "Update Items";
             // 
-            // tabSettings
-            // 
-            this.tabSettings.Controls.Add(this.tileBusinessProfile);
-            this.tabSettings.Controls.Add(this.tileAbout);
-            this.tabSettings.Controls.Add(this.tileUsers);
-            this.tabSettings.Controls.Add(this.tileReports);
-            this.tabSettings.HorizontalScrollbarBarColor = true;
-            this.tabSettings.Location = new System.Drawing.Point(4, 38);
-            this.tabSettings.Name = "tabSettings";
-            this.tabSettings.Size = new System.Drawing.Size(1293, 640);
-            this.tabSettings.TabIndex = 3;
-            this.tabSettings.Text = "    Settings";
-            this.tabSettings.VerticalScrollbarBarColor = true;
-            // 
-            // msmMain
-            // 
-            this.msmMain.Owner = this;
-            // 
-            // imgList
-            // 
-            this.imgList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imgList.ImageStream")));
-            this.imgList.TransparentColor = System.Drawing.Color.Transparent;
-            this.imgList.Images.SetKeyName(0, "dasboard 2.png");
-            this.imgList.Images.SetKeyName(1, "cart2.png");
-            this.imgList.Images.SetKeyName(2, "inventory.png");
-            this.imgList.Images.SetKeyName(3, "Group 135.png");
-            // 
-            // lblDateUpper
-            // 
-            this.lblDateUpper.AutoSize = true;
-            this.lblDateUpper.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.lblDateUpper.Location = new System.Drawing.Point(1050, 55);
-            this.lblDateUpper.Name = "lblDateUpper";
-            this.lblDateUpper.Size = new System.Drawing.Size(108, 25);
-            this.lblDateUpper.TabIndex = 11;
-            this.lblDateUpper.Text = "Mm-dd-yyyy";
-            // 
-            // metroTile1
-            // 
-            this.metroTile1.CustomBackground = true;
-            this.metroTile1.CustomForeColor = true;
-            this.metroTile1.Location = new System.Drawing.Point(426, 57);
-            this.metroTile1.Name = "metroTile1";
-            this.metroTile1.Size = new System.Drawing.Size(28, 27);
-            this.metroTile1.TabIndex = 9;
-            this.metroTile1.TileImage = global::PointOfSalesApp.Properties.Resources.Group_135;
-            this.metroTile1.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.metroTile1.UseTileImage = true;
-            // 
-            // metroTile3
-            // 
-            this.metroTile3.CustomBackground = true;
-            this.metroTile3.CustomForeColor = true;
-            this.metroTile3.Location = new System.Drawing.Point(304, 58);
-            this.metroTile3.Name = "metroTile3";
-            this.metroTile3.Size = new System.Drawing.Size(28, 27);
-            this.metroTile3.TabIndex = 8;
-            this.metroTile3.TileImage = global::PointOfSalesApp.Properties.Resources.inventory;
-            this.metroTile3.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.metroTile3.UseTileImage = true;
-            // 
-            // metroTile2
-            // 
-            this.metroTile2.CustomBackground = true;
-            this.metroTile2.CustomForeColor = true;
-            this.metroTile2.Location = new System.Drawing.Point(159, 58);
-            this.metroTile2.Name = "metroTile2";
-            this.metroTile2.Size = new System.Drawing.Size(28, 27);
-            this.metroTile2.TabIndex = 6;
-            this.metroTile2.TileImage = global::PointOfSalesApp.Properties.Resources.cart2;
-            this.metroTile2.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.metroTile2.UseTileImage = true;
-            // 
-            // tileCalendarIcon
-            // 
-            this.tileCalendarIcon.CustomBackground = true;
-            this.tileCalendarIcon.CustomForeColor = true;
-            this.tileCalendarIcon.Location = new System.Drawing.Point(980, 4);
-            this.tileCalendarIcon.Name = "tileCalendarIcon";
-            this.tileCalendarIcon.Size = new System.Drawing.Size(54, 52);
-            this.tileCalendarIcon.TabIndex = 10;
-            this.tileCalendarIcon.Text = "                ";
-            this.tileCalendarIcon.TileImage = global::PointOfSalesApp.Properties.Resources.calendar_2x1;
-            this.tileCalendarIcon.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.tileCalendarIcon.UseTileImage = true;
-            // 
-            // tabImgDashboard
-            // 
-            this.tabImgDashboard.CustomBackground = true;
-            this.tabImgDashboard.CustomForeColor = true;
-            this.tabImgDashboard.Location = new System.Drawing.Point(27, 29);
-            this.tabImgDashboard.Name = "tabImgDashboard";
-            this.tabImgDashboard.Size = new System.Drawing.Size(28, 27);
-            this.tabImgDashboard.TabIndex = 2;
-            this.tabImgDashboard.TileImage = global::PointOfSalesApp.Properties.Resources.dasboard_2;
-            this.tabImgDashboard.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.tabImgDashboard.UseTileImage = true;
-            // 
-            // tileProduct
-            // 
-            this.tileProduct.Location = new System.Drawing.Point(882, 14);
-            this.tileProduct.Name = "tileProduct";
-            this.tileProduct.Size = new System.Drawing.Size(408, 87);
-            this.tileProduct.Style = MetroFramework.MetroColorStyle.Red;
-            this.tileProduct.TabIndex = 4;
-            this.tileProduct.Text = "Product";
-            this.tileProduct.TileImage = global::PointOfSalesApp.Properties.Resources.prodicts;
-            this.tileProduct.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.tileProduct.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
-            this.tileProduct.UseTileImage = true;
-            // 
-            // tileTransactions
-            // 
-            this.tileTransactions.Location = new System.Drawing.Point(450, 14);
-            this.tileTransactions.Name = "tileTransactions";
-            this.tileTransactions.Size = new System.Drawing.Size(408, 87);
-            this.tileTransactions.Style = MetroFramework.MetroColorStyle.Blue;
-            this.tileTransactions.TabIndex = 3;
-            this.tileTransactions.Text = "Transactions";
-            this.tileTransactions.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.tileTransactions.TileImage = global::PointOfSalesApp.Properties.Resources.transaction;
-            this.tileTransactions.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.tileTransactions.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
-            this.tileTransactions.UseTileImage = true;
-            // 
-            // tileSales
-            // 
-            this.tileSales.Location = new System.Drawing.Point(17, 14);
-            this.tileSales.Name = "tileSales";
-            this.tileSales.Size = new System.Drawing.Size(408, 87);
-            this.tileSales.Style = MetroFramework.MetroColorStyle.Green;
-            this.tileSales.TabIndex = 2;
-            this.tileSales.Text = "Sales";
-            this.tileSales.TileImage = global::PointOfSalesApp.Properties.Resources.sales;
-            this.tileSales.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.tileSales.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
-            this.tileSales.UseTileImage = true;
-            // 
-            // userIconTrnsct
-            // 
-            this.userIconTrnsct.Image = global::PointOfSalesApp.Properties.Resources.user1_icon1;
-            this.userIconTrnsct.Location = new System.Drawing.Point(49, 12);
-            this.userIconTrnsct.Name = "userIconTrnsct";
-            this.userIconTrnsct.Size = new System.Drawing.Size(28, 30);
-            this.userIconTrnsct.TabIndex = 5;
-            this.userIconTrnsct.TabStop = false;
-            // 
-            // imgUserLogout
-            // 
-            this.imgUserLogout.Image = global::PointOfSalesApp.Properties.Resources.user1_icon;
-            this.imgUserLogout.Location = new System.Drawing.Point(705, 11);
-            this.imgUserLogout.Name = "imgUserLogout";
-            this.imgUserLogout.Size = new System.Drawing.Size(31, 28);
-            this.imgUserLogout.TabIndex = 28;
-            this.imgUserLogout.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::PointOfSalesApp.Properties.Resources.Group_136;
-            this.pictureBox2.Location = new System.Drawing.Point(2, 1);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(55, 50);
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            // 
-            // cartSideImg
-            // 
-            this.cartSideImg.Image = global::PointOfSalesApp.Properties.Resources.Group_20;
-            this.cartSideImg.Location = new System.Drawing.Point(3, 2);
-            this.cartSideImg.Name = "cartSideImg";
-            this.cartSideImg.Size = new System.Drawing.Size(55, 50);
-            this.cartSideImg.TabIndex = 2;
-            this.cartSideImg.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::PointOfSalesApp.Properties.Resources.footer_logo;
-            this.pictureBox3.Location = new System.Drawing.Point(460, 529);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(445, 98);
-            this.pictureBox3.TabIndex = 34;
-            this.pictureBox3.TabStop = false;
-            // 
-            // tileSortbyItem
-            // 
-            this.tileSortbyItem.CustomBackground = true;
-            this.tileSortbyItem.Location = new System.Drawing.Point(961, 529);
-            this.tileSortbyItem.Name = "tileSortbyItem";
-            this.tileSortbyItem.PaintTileCount = false;
-            this.tileSortbyItem.Size = new System.Drawing.Size(100, 96);
-            this.tileSortbyItem.TabIndex = 14;
-            this.tileSortbyItem.TileImage = global::PointOfSalesApp.Properties.Resources.Group_23;
-            this.tileSortbyItem.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.tileSortbyItem.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
-            this.tileSortbyItem.UseTileImage = true;
-            // 
-            // tileSortbyID
-            // 
-            this.tileSortbyID.CustomBackground = true;
-            this.tileSortbyID.Location = new System.Drawing.Point(1067, 529);
-            this.tileSortbyID.Name = "tileSortbyID";
-            this.tileSortbyID.PaintTileCount = false;
-            this.tileSortbyID.Size = new System.Drawing.Size(100, 96);
-            this.tileSortbyID.TabIndex = 13;
-            this.tileSortbyID.TileImage = global::PointOfSalesApp.Properties.Resources.Group_24;
-            this.tileSortbyID.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.tileSortbyID.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
-            this.tileSortbyID.UseTileImage = true;
-            // 
-            // tileAddToCart
-            // 
-            this.tileAddToCart.CustomBackground = true;
-            this.tileAddToCart.Location = new System.Drawing.Point(1173, 529);
-            this.tileAddToCart.Name = "tileAddToCart";
-            this.tileAddToCart.PaintTileCount = false;
-            this.tileAddToCart.Size = new System.Drawing.Size(100, 96);
-            this.tileAddToCart.TabIndex = 12;
-            this.tileAddToCart.TileImage = global::PointOfSalesApp.Properties.Resources.Group_76;
-            this.tileAddToCart.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.tileAddToCart.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
-            this.tileAddToCart.UseTileImage = true;
-            // 
-            // tileTransact
-            // 
-            this.tileTransact.CustomBackground = true;
-            this.tileTransact.Location = new System.Drawing.Point(325, 540);
-            this.tileTransact.Name = "tileTransact";
-            this.tileTransact.PaintTileCount = false;
-            this.tileTransact.Size = new System.Drawing.Size(100, 96);
-            this.tileTransact.TabIndex = 5;
-            this.tileTransact.TileImage = global::PointOfSalesApp.Properties.Resources.Group_71;
-            this.tileTransact.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.tileTransact.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
-            this.tileTransact.UseTileImage = true;
-            // 
-            // metroTile5
-            // 
-            this.metroTile5.CustomBackground = true;
-            this.metroTile5.Location = new System.Drawing.Point(219, 540);
-            this.metroTile5.Name = "metroTile5";
-            this.metroTile5.PaintTileCount = false;
-            this.metroTile5.Size = new System.Drawing.Size(100, 96);
-            this.metroTile5.TabIndex = 6;
-            this.metroTile5.TileImage = global::PointOfSalesApp.Properties.Resources.wholesale2;
-            this.metroTile5.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.metroTile5.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
-            this.metroTile5.UseTileImage = true;
-            // 
-            // tileClrCrt
-            // 
-            this.tileClrCrt.CustomBackground = true;
-            this.tileClrCrt.Location = new System.Drawing.Point(113, 540);
-            this.tileClrCrt.Name = "tileClrCrt";
-            this.tileClrCrt.PaintTileCount = false;
-            this.tileClrCrt.Size = new System.Drawing.Size(100, 96);
-            this.tileClrCrt.TabIndex = 7;
-            this.tileClrCrt.TileImage = global::PointOfSalesApp.Properties.Resources.Group_73;
-            this.tileClrCrt.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.tileClrCrt.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
-            this.tileClrCrt.UseTileImage = true;
-            // 
-            // tileVoid
-            // 
-            this.tileVoid.CustomBackground = true;
-            this.tileVoid.Location = new System.Drawing.Point(7, 540);
-            this.tileVoid.Name = "tileVoid";
-            this.tileVoid.PaintTileCount = false;
-            this.tileVoid.Size = new System.Drawing.Size(100, 96);
-            this.tileVoid.TabIndex = 8;
-            this.tileVoid.TileImage = global::PointOfSalesApp.Properties.Resources.Group_741;
-            this.tileVoid.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.tileVoid.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
-            this.tileVoid.UseTileImage = true;
-            // 
             // tileDeleteItemInv
             // 
             this.tileDeleteItemInv.CustomBackground = true;
@@ -1134,7 +1002,7 @@
             // 
             // imgUser
             // 
-            this.imgUser.Image = global::PointOfSalesApp.Properties.Resources.user1_icon;
+            this.imgUser.Image = global::PointOfSalesApp.Properties.Resources.user1_icon1;
             this.imgUser.Location = new System.Drawing.Point(1130, 12);
             this.imgUser.Name = "imgUser";
             this.imgUser.Size = new System.Drawing.Size(31, 28);
@@ -1150,9 +1018,43 @@
             this.imgFooterLogo.TabIndex = 33;
             this.imgFooterLogo.TabStop = false;
             // 
+            // tabSettings
+            // 
+            this.tabSettings.Controls.Add(this.label2);
+            this.tabSettings.Controls.Add(this.pictureBox4);
+            this.tabSettings.Controls.Add(this.tileBusinessProfile);
+            this.tabSettings.Controls.Add(this.tileAbout);
+            this.tabSettings.Controls.Add(this.tileUsers);
+            this.tabSettings.HorizontalScrollbarBarColor = true;
+            this.tabSettings.Location = new System.Drawing.Point(4, 38);
+            this.tabSettings.Name = "tabSettings";
+            this.tabSettings.Size = new System.Drawing.Size(1293, 640);
+            this.tabSettings.TabIndex = 3;
+            this.tabSettings.Text = "    Settings";
+            this.tabSettings.VerticalScrollbarBarColor = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(1188, 15);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(90, 32);
+            this.label2.TabIndex = 31;
+            this.label2.Text = "Logout";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::PointOfSalesApp.Properties.Resources.user1_icon1;
+            this.pictureBox4.Location = new System.Drawing.Point(1151, 19);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(31, 28);
+            this.pictureBox4.TabIndex = 32;
+            this.pictureBox4.TabStop = false;
+            // 
             // tileBusinessProfile
             // 
-            this.tileBusinessProfile.Location = new System.Drawing.Point(838, 129);
+            this.tileBusinessProfile.Location = new System.Drawing.Point(765, 126);
             this.tileBusinessProfile.Name = "tileBusinessProfile";
             this.tileBusinessProfile.Size = new System.Drawing.Size(139, 281);
             this.tileBusinessProfile.Style = MetroFramework.MetroColorStyle.Blue;
@@ -1165,10 +1067,10 @@
             // 
             // tileAbout
             // 
-            this.tileAbout.Location = new System.Drawing.Point(470, 275);
+            this.tileAbout.Location = new System.Drawing.Point(397, 272);
             this.tileAbout.Name = "tileAbout";
             this.tileAbout.Size = new System.Drawing.Size(351, 135);
-            this.tileAbout.Style = MetroFramework.MetroColorStyle.Purple;
+            this.tileAbout.Style = MetroFramework.MetroColorStyle.Yellow;
             this.tileAbout.TabIndex = 6;
             this.tileAbout.Text = "About";
             this.tileAbout.TileImage = global::PointOfSalesApp.Properties.Resources.about;
@@ -1178,7 +1080,7 @@
             // 
             // tileUsers
             // 
-            this.tileUsers.Location = new System.Drawing.Point(470, 129);
+            this.tileUsers.Location = new System.Drawing.Point(397, 126);
             this.tileUsers.Name = "tileUsers";
             this.tileUsers.Size = new System.Drawing.Size(351, 135);
             this.tileUsers.Style = MetroFramework.MetroColorStyle.Red;
@@ -1189,18 +1091,190 @@
             this.tileUsers.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
             this.tileUsers.UseTileImage = true;
             // 
-            // tileReports
+            // chart2
             // 
-            this.tileReports.Location = new System.Drawing.Point(312, 129);
-            this.tileReports.Name = "tileReports";
-            this.tileReports.Size = new System.Drawing.Size(140, 281);
-            this.tileReports.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.tileReports.TabIndex = 4;
-            this.tileReports.Text = "Reports";
-            this.tileReports.TileImage = global::PointOfSalesApp.Properties.Resources._1Reports;
-            this.tileReports.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.tileReports.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
-            this.tileReports.UseTileImage = true;
+            chartArea2.Name = "ChartArea1";
+            this.chart2.ChartAreas.Add(chartArea2);
+            legend2.Enabled = false;
+            legend2.Name = "Legend1";
+            this.chart2.Legends.Add(legend2);
+            this.chart2.Location = new System.Drawing.Point(914, 190);
+            this.chart2.Name = "chart2";
+            this.chart2.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
+            this.chart2.PaletteCustomColors = new System.Drawing.Color[] {
+        System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))))};
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            series2.ShadowColor = System.Drawing.Color.DimGray;
+            this.chart2.Series.Add(series2);
+            this.chart2.Size = new System.Drawing.Size(362, 238);
+            this.chart2.TabIndex = 10;
+            this.chart2.Text = "chart2";
+            // 
+            // chartTransactions
+            // 
+            chartArea3.Name = "ChartArea1";
+            this.chartTransactions.ChartAreas.Add(chartArea3);
+            legend3.Enabled = false;
+            legend3.Name = "Legend1";
+            this.chartTransactions.Legends.Add(legend3);
+            this.chartTransactions.Location = new System.Drawing.Point(465, 190);
+            this.chartTransactions.Name = "chartTransactions";
+            this.chartTransactions.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Pastel;
+            this.chartTransactions.PaletteCustomColors = new System.Drawing.Color[] {
+        System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))))};
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series3.Legend = "Legend1";
+            series3.Name = "Series1";
+            series3.ShadowColor = System.Drawing.Color.DimGray;
+            this.chartTransactions.Series.Add(series3);
+            this.chartTransactions.Size = new System.Drawing.Size(362, 238);
+            this.chartTransactions.TabIndex = 9;
+            this.chartTransactions.Text = "chart2";
+            // 
+            // chart1
+            // 
+            chartArea4.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea4);
+            legend4.Enabled = false;
+            legend4.Name = "Legend1";
+            this.chart1.Legends.Add(legend4);
+            this.chart1.Location = new System.Drawing.Point(27, 190);
+            this.chart1.Name = "chart1";
+            this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Bright;
+            this.chart1.PaletteCustomColors = new System.Drawing.Color[] {
+        System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))))};
+            series4.ChartArea = "ChartArea1";
+            series4.Legend = "Legend1";
+            series4.Name = "Series1";
+            series4.ShadowColor = System.Drawing.Color.DimGray;
+            this.chart1.Series.Add(series4);
+            this.chart1.Size = new System.Drawing.Size(362, 238);
+            this.chart1.TabIndex = 8;
+            this.chart1.Text = "chart1";
+            // 
+            // metroTile4
+            // 
+            this.metroTile4.Location = new System.Drawing.Point(882, 101);
+            this.metroTile4.Name = "metroTile4";
+            this.metroTile4.Size = new System.Drawing.Size(408, 12);
+            this.metroTile4.Style = MetroFramework.MetroColorStyle.Orange;
+            this.metroTile4.TabIndex = 7;
+            // 
+            // tileTealTransact
+            // 
+            this.tileTealTransact.Location = new System.Drawing.Point(450, 101);
+            this.tileTealTransact.Name = "tileTealTransact";
+            this.tileTealTransact.Size = new System.Drawing.Size(408, 12);
+            this.tileTealTransact.Style = MetroFramework.MetroColorStyle.Teal;
+            this.tileTealTransact.TabIndex = 6;
+            // 
+            // tileLimeSales
+            // 
+            this.tileLimeSales.Location = new System.Drawing.Point(17, 101);
+            this.tileLimeSales.Name = "tileLimeSales";
+            this.tileLimeSales.Size = new System.Drawing.Size(408, 12);
+            this.tileLimeSales.Style = MetroFramework.MetroColorStyle.Lime;
+            this.tileLimeSales.TabIndex = 5;
+            // 
+            // msmMain
+            // 
+            this.msmMain.Owner = this;
+            // 
+            // imgList
+            // 
+            this.imgList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imgList.ImageStream")));
+            this.imgList.TransparentColor = System.Drawing.Color.Transparent;
+            this.imgList.Images.SetKeyName(0, "dasboard 2.png");
+            this.imgList.Images.SetKeyName(1, "cart2.png");
+            this.imgList.Images.SetKeyName(2, "inventory.png");
+            this.imgList.Images.SetKeyName(3, "Group 135.png");
+            // 
+            // lblDateUpper
+            // 
+            this.lblDateUpper.AutoSize = true;
+            this.lblDateUpper.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.lblDateUpper.Location = new System.Drawing.Point(1050, 55);
+            this.lblDateUpper.Name = "lblDateUpper";
+            this.lblDateUpper.Size = new System.Drawing.Size(108, 25);
+            this.lblDateUpper.TabIndex = 11;
+            this.lblDateUpper.Text = "Mm-dd-yyyy";
+            // 
+            // tabImgSettings
+            // 
+            this.tabImgSettings.CustomBackground = true;
+            this.tabImgSettings.CustomForeColor = true;
+            this.tabImgSettings.Location = new System.Drawing.Point(426, 57);
+            this.tabImgSettings.Name = "tabImgSettings";
+            this.tabImgSettings.Size = new System.Drawing.Size(28, 27);
+            this.tabImgSettings.TabIndex = 9;
+            this.tabImgSettings.TileImage = global::PointOfSalesApp.Properties.Resources.Group_135;
+            this.tabImgSettings.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tabImgSettings.UseTileImage = true;
+            // 
+            // tabImgInventory
+            // 
+            this.tabImgInventory.CustomBackground = true;
+            this.tabImgInventory.CustomForeColor = true;
+            this.tabImgInventory.Location = new System.Drawing.Point(304, 58);
+            this.tabImgInventory.Name = "tabImgInventory";
+            this.tabImgInventory.Size = new System.Drawing.Size(28, 27);
+            this.tabImgInventory.TabIndex = 8;
+            this.tabImgInventory.TileImage = global::PointOfSalesApp.Properties.Resources.inventory;
+            this.tabImgInventory.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tabImgInventory.UseTileImage = true;
+            // 
+            // tabImgCshReg
+            // 
+            this.tabImgCshReg.CustomBackground = true;
+            this.tabImgCshReg.CustomForeColor = true;
+            this.tabImgCshReg.Location = new System.Drawing.Point(159, 58);
+            this.tabImgCshReg.Name = "tabImgCshReg";
+            this.tabImgCshReg.Size = new System.Drawing.Size(28, 27);
+            this.tabImgCshReg.TabIndex = 6;
+            this.tabImgCshReg.TileImage = global::PointOfSalesApp.Properties.Resources.cart2;
+            this.tabImgCshReg.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tabImgCshReg.UseTileImage = true;
+            // 
+            // tileProduct
+            // 
+            this.tileProduct.Location = new System.Drawing.Point(882, 14);
+            this.tileProduct.Name = "tileProduct";
+            this.tileProduct.Size = new System.Drawing.Size(408, 87);
+            this.tileProduct.Style = MetroFramework.MetroColorStyle.Red;
+            this.tileProduct.TabIndex = 4;
+            this.tileProduct.Text = "Product";
+            this.tileProduct.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tileProduct.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.tileProduct.UseTileImage = true;
+            // 
+            // tileTransactions
+            // 
+            this.tileTransactions.Location = new System.Drawing.Point(450, 14);
+            this.tileTransactions.Name = "tileTransactions";
+            this.tileTransactions.Size = new System.Drawing.Size(408, 87);
+            this.tileTransactions.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tileTransactions.TabIndex = 3;
+            this.tileTransactions.Text = "Transactions";
+            this.tileTransactions.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.tileTransactions.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tileTransactions.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.tileTransactions.UseTileImage = true;
+            // 
+            // tileSales
+            // 
+            this.tileSales.Location = new System.Drawing.Point(17, 14);
+            this.tileSales.Name = "tileSales";
+            this.tileSales.Size = new System.Drawing.Size(408, 87);
+            this.tileSales.Style = MetroFramework.MetroColorStyle.Green;
+            this.tileSales.TabIndex = 2;
+            this.tileSales.Text = "Sales";
+            this.tileSales.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tileSales.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.tileSales.UseTileImage = true;
             // 
             // pictureBox1
             // 
@@ -1211,15 +1285,67 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // metroPanel3
+            // 
+            this.metroPanel3.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.metroPanel3.Controls.Add(this.tileTrnsct);
+            this.metroPanel3.CustomBackground = true;
+            this.metroPanel3.HorizontalScrollbarBarColor = true;
+            this.metroPanel3.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroPanel3.HorizontalScrollbarSize = 10;
+            this.metroPanel3.Location = new System.Drawing.Point(499, 26);
+            this.metroPanel3.Name = "metroPanel3";
+            this.metroPanel3.Size = new System.Drawing.Size(347, 124);
+            this.metroPanel3.TabIndex = 4;
+            this.metroPanel3.VerticalScrollbarBarColor = true;
+            this.metroPanel3.VerticalScrollbarHighlightOnWheel = false;
+            this.metroPanel3.VerticalScrollbarSize = 10;
+            // 
+            // tileTrnsct
+            // 
+            this.tileTrnsct.Location = new System.Drawing.Point(0, 0);
+            this.tileTrnsct.Name = "tileTrnsct";
+            this.tileTrnsct.Size = new System.Drawing.Size(347, 109);
+            this.tileTrnsct.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tileTrnsct.TabIndex = 8;
+            this.tileTrnsct.Text = "Transactions";
+            this.tileTrnsct.TileImage = global::PointOfSalesApp.Properties.Resources.transaction;
+            this.tileTrnsct.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tileTrnsct.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.tileTrnsct.UseTileImage = true;
+            // 
+            // salesChart
+            // 
+            this.salesChart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            chartArea1.Name = "Annual Sales";
+            this.salesChart.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.salesChart.Legends.Add(legend1);
+            this.salesChart.Location = new System.Drawing.Point(97, 156);
+            this.salesChart.Name = "salesChart";
+            this.salesChart.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
+            this.salesChart.PaletteCustomColors = new System.Drawing.Color[] {
+        System.Drawing.Color.Green};
+            series1.ChartArea = "Annual Sales";
+            series1.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.salesChart.Series.Add(series1);
+            this.salesChart.Size = new System.Drawing.Size(395, 246);
+            this.salesChart.TabIndex = 5;
+            this.salesChart.Text = "chart3";
+            title1.Name = "Annual Sales";
+            this.salesChart.Titles.Add(title1);
+            // 
             // MainFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(2F, 5F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1366, 768);
             this.Controls.Add(this.lblDateUpper);
-            this.Controls.Add(this.metroTile1);
-            this.Controls.Add(this.metroTile3);
-            this.Controls.Add(this.metroTile2);
+            this.Controls.Add(this.tabImgSettings);
+            this.Controls.Add(this.tabImgInventory);
+            this.Controls.Add(this.tabImgCshReg);
             this.Controls.Add(this.metroPanel1);
             this.Controls.Add(this.appName2);
             this.Controls.Add(this.pictureBox1);
@@ -1230,14 +1356,12 @@
             this.MinimizeBox = false;
             this.Name = "MainFrm";
             this.Padding = new System.Windows.Forms.Padding(7, 60, 7, 7);
-            this.Load += new System.EventHandler(this.MainForm_Load);
             this.metroPanel1.ResumeLayout(false);
             this.metroPanel1.PerformLayout();
-            this.Transaction.ResumeLayout(false);
-            this.tabDashboard.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chartTransactions)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
+            this.tileDshSales.ResumeLayout(false);
+            this.tabMain.ResumeLayout(false);
+            this.panelProducts.ResumeLayout(false);
+            this.panelSales.ResumeLayout(false);
             this.tileCshReg.ResumeLayout(false);
             this.tileCshReg.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGriManualSearch)).EndInit();
@@ -1246,23 +1370,30 @@
             this.metroPanel4.PerformLayout();
             this.pnlEmployeeInfo.ResumeLayout(false);
             this.pnlEmployeeInfo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.userIconTrnsct)).EndInit();
             this.metroPanel2.ResumeLayout(false);
             this.metroPanel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgUserLogout)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.upperRightPnl.ResumeLayout(false);
             this.upperRightPnl.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgTransact)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.tabInventory.ResumeLayout(false);
             this.tabInventory.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridInventory)).EndInit();
-            this.tabSettings.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.msmMain)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.userIconTrnsct)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgUserLogout)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cartSideImg)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgUser)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgFooterLogo)).EndInit();
+            this.tabSettings.ResumeLayout(false);
+            this.tabSettings.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartTransactions)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.msmMain)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.metroPanel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.salesChart)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1273,15 +1404,14 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label appName2;
         private MetroFramework.Controls.MetroPanel metroPanel1;
-        private MetroFramework.Controls.MetroTabPage tabDashboard;
         private MetroFramework.Components.MetroStyleManager msmMain;
-        private MetroFramework.Controls.MetroTabControl Transaction;
+        private MetroFramework.Controls.MetroTabControl tileDshSales;
         private MetroFramework.Controls.MetroTabPage tileCshReg;
         private MetroFramework.Controls.MetroTile tabImgDashboard;
-        private MetroFramework.Controls.MetroTile metroTile2;
-        private MetroFramework.Controls.MetroTile metroTile3;
+        private MetroFramework.Controls.MetroTile tabImgCshReg;
+        private MetroFramework.Controls.MetroTile tabImgInventory;
         private MetroFramework.Controls.MetroTabPage tabInventory;
-        private MetroFramework.Controls.MetroTile metroTile1;
+        private MetroFramework.Controls.MetroTile tabImgSettings;
         private MetroFramework.Controls.MetroTile tileSales;
         private MetroFramework.Controls.MetroTabPage tabSettings;
         private MetroFramework.Controls.MetroTile tileProduct;
@@ -1295,7 +1425,6 @@
         private System.Windows.Forms.DataVisualization.Charting.Chart chartTransactions;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
         private MetroFramework.Controls.MetroPanel upperRightPnl;
-        private System.Windows.Forms.PictureBox cartSideImg;
         private System.Windows.Forms.Label lblTransaction;
         private MetroFramework.Controls.MetroPanel metroPanel2;
         private System.Windows.Forms.Label label1;
@@ -1314,7 +1443,7 @@
         private System.Windows.Forms.Label lblStaffName;
         private MetroFramework.Controls.MetroTile tileClrCrt;
         private MetroFramework.Controls.MetroTile tileVoid;
-        private MetroFramework.Controls.MetroTile metroTile5;
+        private MetroFramework.Controls.MetroTile tilePrntRcpt;
         private MetroFramework.Controls.MetroTile tileTransact;
         private MetroFramework.Controls.MetroTextBox txtBoxSearch;
         private MetroFramework.Controls.MetroRadioButton radioBtnDiscount;
@@ -1353,8 +1482,18 @@
         private MetroFramework.Controls.MetroTile tileDeleteItemInv;
         public System.Windows.Forms.ImageList imgList;
         private MetroFramework.Controls.MetroTile tileUsers;
-        private MetroFramework.Controls.MetroTile tileReports;
         private MetroFramework.Controls.MetroTile tileAbout;
         private MetroFramework.Controls.MetroTile tileBusinessProfile;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private MetroFramework.Controls.MetroTabPage tabMain;
+        private System.Windows.Forms.PictureBox imgTransact;
+        private MetroFramework.Controls.MetroPanel panelProducts;
+        private MetroFramework.Controls.MetroTile tileProducts;
+        private MetroFramework.Controls.MetroPanel panelSales;
+        private MetroFramework.Controls.MetroTile metroTile1;
+        private System.Windows.Forms.DataVisualization.Charting.Chart salesChart;
+        private MetroFramework.Controls.MetroPanel metroPanel3;
+        private MetroFramework.Controls.MetroTile tileTrnsct;
     }
 }
