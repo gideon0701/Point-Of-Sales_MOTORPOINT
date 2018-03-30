@@ -29,31 +29,39 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title3 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title2 = new System.Windows.Forms.DataVisualization.Charting.Title();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainFrm));
             this.appName2 = new System.Windows.Forms.Label();
-            this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
+            this.pnlSuper = new MetroFramework.Controls.MetroPanel();
             this.lblCalendar = new MetroFramework.Controls.MetroLabel();
             this.tileCalendarIcon = new MetroFramework.Controls.MetroTile();
             this.tabImgDashboard = new MetroFramework.Controls.MetroTile();
-            this.tileDshSales = new MetroFramework.Controls.MetroTabControl();
+            this.pnlMain = new MetroFramework.Controls.MetroTabControl();
             this.tabMain = new MetroFramework.Controls.MetroTabPage();
             this.panelProducts = new MetroFramework.Controls.MetroPanel();
             this.tileProducts = new MetroFramework.Controls.MetroTile();
             this.panelSales = new MetroFramework.Controls.MetroPanel();
-            this.metroTile1 = new MetroFramework.Controls.MetroTile();
+            this.tileDshSales = new MetroFramework.Controls.MetroTile();
             this.tileCshReg = new MetroFramework.Controls.MetroTabPage();
             this.SrchBtn = new MetroFramework.Controls.MetroButton();
             this.txtBoxSearch = new MetroFramework.Controls.MetroTextBox();
@@ -137,8 +145,22 @@
             this.metroPanel3 = new MetroFramework.Controls.MetroPanel();
             this.tileTrnsct = new MetroFramework.Controls.MetroTile();
             this.salesChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.metroPanel1.SuspendLayout();
-            this.tileDshSales.SuspendLayout();
+            this.lblSalesInterval = new MetroFramework.Controls.MetroLabel();
+            this.lblPeriod = new MetroFramework.Controls.MetroLabel();
+            this.comboInterval = new MetroFramework.Controls.MetroComboBox();
+            this.comboPeriod = new MetroFramework.Controls.MetroComboBox();
+            this.comboPeriod2 = new MetroFramework.Controls.MetroComboBox();
+            this.comboInterval2 = new MetroFramework.Controls.MetroComboBox();
+            this.lblPeriod2 = new MetroFramework.Controls.MetroLabel();
+            this.lblInterval2 = new MetroFramework.Controls.MetroLabel();
+            this.chart3 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.comboPeriod3 = new MetroFramework.Controls.MetroComboBox();
+            this.comboInterval3 = new MetroFramework.Controls.MetroComboBox();
+            this.lblPeriod3 = new MetroFramework.Controls.MetroLabel();
+            this.lblInterval3 = new MetroFramework.Controls.MetroLabel();
+            this.chartProducts = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.pnlSuper.SuspendLayout();
+            this.pnlMain.SuspendLayout();
             this.tabMain.SuspendLayout();
             this.panelProducts.SuspendLayout();
             this.panelSales.SuspendLayout();
@@ -167,6 +189,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.metroPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.salesChart)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartProducts)).BeginInit();
             this.SuspendLayout();
             // 
             // appName2
@@ -182,22 +206,22 @@
             this.appName2.Text = "MOTORPOINT Motorcyle Parts and Accesories";
             this.appName2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // metroPanel1
+            // pnlSuper
             // 
-            this.metroPanel1.Controls.Add(this.lblCalendar);
-            this.metroPanel1.Controls.Add(this.tileCalendarIcon);
-            this.metroPanel1.Controls.Add(this.tabImgDashboard);
-            this.metroPanel1.Controls.Add(this.tileDshSales);
-            this.metroPanel1.HorizontalScrollbarBarColor = true;
-            this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroPanel1.HorizontalScrollbarSize = 10;
-            this.metroPanel1.Location = new System.Drawing.Point(10, 31);
-            this.metroPanel1.Name = "metroPanel1";
-            this.metroPanel1.Size = new System.Drawing.Size(1331, 716);
-            this.metroPanel1.TabIndex = 4;
-            this.metroPanel1.VerticalScrollbarBarColor = true;
-            this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
-            this.metroPanel1.VerticalScrollbarSize = 10;
+            this.pnlSuper.Controls.Add(this.lblCalendar);
+            this.pnlSuper.Controls.Add(this.tileCalendarIcon);
+            this.pnlSuper.Controls.Add(this.tabImgDashboard);
+            this.pnlSuper.Controls.Add(this.pnlMain);
+            this.pnlSuper.HorizontalScrollbarBarColor = true;
+            this.pnlSuper.HorizontalScrollbarHighlightOnWheel = false;
+            this.pnlSuper.HorizontalScrollbarSize = 10;
+            this.pnlSuper.Location = new System.Drawing.Point(10, 31);
+            this.pnlSuper.Name = "pnlSuper";
+            this.pnlSuper.Size = new System.Drawing.Size(1331, 716);
+            this.pnlSuper.TabIndex = 4;
+            this.pnlSuper.VerticalScrollbarBarColor = true;
+            this.pnlSuper.VerticalScrollbarHighlightOnWheel = false;
+            this.pnlSuper.VerticalScrollbarSize = 10;
             // 
             // lblCalendar
             // 
@@ -233,25 +257,39 @@
             this.tabImgDashboard.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.tabImgDashboard.UseTileImage = true;
             // 
-            // tileDshSales
+            // pnlMain
             // 
-            this.tileDshSales.Controls.Add(this.tabMain);
-            this.tileDshSales.Controls.Add(this.tileCshReg);
-            this.tileDshSales.Controls.Add(this.tabInventory);
-            this.tileDshSales.Controls.Add(this.tabSettings);
-            this.tileDshSales.FontSize = MetroFramework.MetroTabControlSize.Tall;
-            this.tileDshSales.FontWeight = MetroFramework.MetroTabControlWeight.Regular;
-            this.tileDshSales.ItemSize = new System.Drawing.Size(135, 34);
-            this.tileDshSales.Location = new System.Drawing.Point(15, 22);
-            this.tileDshSales.Name = "tileDshSales";
-            this.tileDshSales.SelectedIndex = 0;
-            this.tileDshSales.Size = new System.Drawing.Size(1301, 682);
-            this.tileDshSales.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.tileDshSales.Style = MetroFramework.MetroColorStyle.Green;
-            this.tileDshSales.TabIndex = 2;
+            this.pnlMain.Controls.Add(this.tabMain);
+            this.pnlMain.Controls.Add(this.tileCshReg);
+            this.pnlMain.Controls.Add(this.tabInventory);
+            this.pnlMain.Controls.Add(this.tabSettings);
+            this.pnlMain.FontSize = MetroFramework.MetroTabControlSize.Tall;
+            this.pnlMain.FontWeight = MetroFramework.MetroTabControlWeight.Regular;
+            this.pnlMain.ItemSize = new System.Drawing.Size(135, 34);
+            this.pnlMain.Location = new System.Drawing.Point(15, 22);
+            this.pnlMain.Name = "pnlMain";
+            this.pnlMain.SelectedIndex = 3;
+            this.pnlMain.Size = new System.Drawing.Size(1301, 682);
+            this.pnlMain.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.pnlMain.Style = MetroFramework.MetroColorStyle.Green;
+            this.pnlMain.TabIndex = 2;
             // 
             // tabMain
             // 
+            this.tabMain.Controls.Add(this.comboPeriod3);
+            this.tabMain.Controls.Add(this.comboInterval3);
+            this.tabMain.Controls.Add(this.lblPeriod3);
+            this.tabMain.Controls.Add(this.lblInterval3);
+            this.tabMain.Controls.Add(this.chartProducts);
+            this.tabMain.Controls.Add(this.comboPeriod2);
+            this.tabMain.Controls.Add(this.comboInterval2);
+            this.tabMain.Controls.Add(this.lblPeriod2);
+            this.tabMain.Controls.Add(this.lblInterval2);
+            this.tabMain.Controls.Add(this.chart3);
+            this.tabMain.Controls.Add(this.comboPeriod);
+            this.tabMain.Controls.Add(this.comboInterval);
+            this.tabMain.Controls.Add(this.lblPeriod);
+            this.tabMain.Controls.Add(this.lblSalesInterval);
             this.tabMain.Controls.Add(this.salesChart);
             this.tabMain.Controls.Add(this.metroPanel3);
             this.tabMain.Controls.Add(this.panelProducts);
@@ -298,7 +336,7 @@
             // panelSales
             // 
             this.panelSales.BackColor = System.Drawing.Color.Green;
-            this.panelSales.Controls.Add(this.metroTile1);
+            this.panelSales.Controls.Add(this.tileDshSales);
             this.panelSales.CustomBackground = true;
             this.panelSales.HorizontalScrollbarBarColor = true;
             this.panelSales.HorizontalScrollbarHighlightOnWheel = false;
@@ -311,18 +349,19 @@
             this.panelSales.VerticalScrollbarHighlightOnWheel = false;
             this.panelSales.VerticalScrollbarSize = 10;
             // 
-            // metroTile1
+            // tileDshSales
             // 
-            this.metroTile1.Location = new System.Drawing.Point(0, 0);
-            this.metroTile1.Name = "metroTile1";
-            this.metroTile1.Size = new System.Drawing.Size(347, 109);
-            this.metroTile1.Style = MetroFramework.MetroColorStyle.Green;
-            this.metroTile1.TabIndex = 8;
-            this.metroTile1.Text = "Users";
-            this.metroTile1.TileImage = global::PointOfSalesApp.Properties.Resources.sales;
-            this.metroTile1.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.metroTile1.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
-            this.metroTile1.UseTileImage = true;
+            this.tileDshSales.BackColor = System.Drawing.Color.Transparent;
+            this.tileDshSales.Location = new System.Drawing.Point(0, 0);
+            this.tileDshSales.Name = "tileDshSales";
+            this.tileDshSales.Size = new System.Drawing.Size(347, 109);
+            this.tileDshSales.Style = MetroFramework.MetroColorStyle.Green;
+            this.tileDshSales.TabIndex = 8;
+            this.tileDshSales.Text = "Users";
+            this.tileDshSales.TileImage = global::PointOfSalesApp.Properties.Resources.sales;
+            this.tileDshSales.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tileDshSales.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.tileDshSales.UseTileImage = true;
             // 
             // tileCshReg
             // 
@@ -1093,65 +1132,65 @@
             // 
             // chart2
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chart2.ChartAreas.Add(chartArea2);
-            legend2.Enabled = false;
-            legend2.Name = "Legend1";
-            this.chart2.Legends.Add(legend2);
+            chartArea4.Name = "ChartArea1";
+            this.chart2.ChartAreas.Add(chartArea4);
+            legend4.Enabled = false;
+            legend4.Name = "Legend1";
+            this.chart2.Legends.Add(legend4);
             this.chart2.Location = new System.Drawing.Point(914, 190);
             this.chart2.Name = "chart2";
             this.chart2.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
             this.chart2.PaletteCustomColors = new System.Drawing.Color[] {
         System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))))};
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            series2.ShadowColor = System.Drawing.Color.DimGray;
-            this.chart2.Series.Add(series2);
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
+            series4.Legend = "Legend1";
+            series4.Name = "Series1";
+            series4.ShadowColor = System.Drawing.Color.DimGray;
+            this.chart2.Series.Add(series4);
             this.chart2.Size = new System.Drawing.Size(362, 238);
             this.chart2.TabIndex = 10;
             this.chart2.Text = "chart2";
             // 
             // chartTransactions
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chartTransactions.ChartAreas.Add(chartArea3);
-            legend3.Enabled = false;
-            legend3.Name = "Legend1";
-            this.chartTransactions.Legends.Add(legend3);
+            chartArea5.Name = "ChartArea1";
+            this.chartTransactions.ChartAreas.Add(chartArea5);
+            legend5.Enabled = false;
+            legend5.Name = "Legend1";
+            this.chartTransactions.Legends.Add(legend5);
             this.chartTransactions.Location = new System.Drawing.Point(465, 190);
             this.chartTransactions.Name = "chartTransactions";
             this.chartTransactions.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Pastel;
             this.chartTransactions.PaletteCustomColors = new System.Drawing.Color[] {
         System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))))};
-            series3.ChartArea = "ChartArea1";
-            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            series3.ShadowColor = System.Drawing.Color.DimGray;
-            this.chartTransactions.Series.Add(series3);
+            series5.ChartArea = "ChartArea1";
+            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series5.Legend = "Legend1";
+            series5.Name = "Series1";
+            series5.ShadowColor = System.Drawing.Color.DimGray;
+            this.chartTransactions.Series.Add(series5);
             this.chartTransactions.Size = new System.Drawing.Size(362, 238);
             this.chartTransactions.TabIndex = 9;
             this.chartTransactions.Text = "chart2";
             // 
             // chart1
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea4);
-            legend4.Enabled = false;
-            legend4.Name = "Legend1";
-            this.chart1.Legends.Add(legend4);
+            chartArea6.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea6);
+            legend6.Enabled = false;
+            legend6.Name = "Legend1";
+            this.chart1.Legends.Add(legend6);
             this.chart1.Location = new System.Drawing.Point(27, 190);
             this.chart1.Name = "chart1";
             this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Bright;
             this.chart1.PaletteCustomColors = new System.Drawing.Color[] {
         System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))))};
-            series4.ChartArea = "ChartArea1";
-            series4.Legend = "Legend1";
-            series4.Name = "Series1";
-            series4.ShadowColor = System.Drawing.Color.DimGray;
-            this.chart1.Series.Add(series4);
+            series6.ChartArea = "ChartArea1";
+            series6.Legend = "Legend1";
+            series6.Name = "Series1";
+            series6.ShadowColor = System.Drawing.Color.DimGray;
+            this.chart1.Series.Add(series6);
             this.chart1.Size = new System.Drawing.Size(362, 238);
             this.chart1.TabIndex = 8;
             this.chart1.Text = "chart1";
@@ -1317,25 +1356,190 @@
             // salesChart
             // 
             this.salesChart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            chartArea1.Name = "Annual Sales";
-            this.salesChart.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.salesChart.Legends.Add(legend1);
-            this.salesChart.Location = new System.Drawing.Point(97, 156);
+            this.salesChart.BorderlineColor = System.Drawing.Color.Transparent;
+            chartArea3.Name = "Annual Sales";
+            this.salesChart.ChartAreas.Add(chartArea3);
+            legend3.Enabled = false;
+            legend3.Name = "Legend1";
+            this.salesChart.Legends.Add(legend3);
+            this.salesChart.Location = new System.Drawing.Point(97, 261);
             this.salesChart.Name = "salesChart";
             this.salesChart.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
             this.salesChart.PaletteCustomColors = new System.Drawing.Color[] {
         System.Drawing.Color.Green};
-            series1.ChartArea = "Annual Sales";
+            series3.ChartArea = "Annual Sales";
+            series3.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            series3.Legend = "Legend1";
+            series3.Name = "Series1";
+            this.salesChart.Series.Add(series3);
+            this.salesChart.Size = new System.Drawing.Size(347, 247);
+            this.salesChart.TabIndex = 5;
+            this.salesChart.Text = "Sales";
+            title3.Name = "Annual Sales";
+            this.salesChart.Titles.Add(title3);
+            // 
+            // lblSalesInterval
+            // 
+            this.lblSalesInterval.AutoSize = true;
+            this.lblSalesInterval.Location = new System.Drawing.Point(100, 166);
+            this.lblSalesInterval.Name = "lblSalesInterval";
+            this.lblSalesInterval.Size = new System.Drawing.Size(51, 19);
+            this.lblSalesInterval.TabIndex = 6;
+            this.lblSalesInterval.Text = "Interval";
+            // 
+            // lblPeriod
+            // 
+            this.lblPeriod.AutoSize = true;
+            this.lblPeriod.Location = new System.Drawing.Point(100, 201);
+            this.lblPeriod.Name = "lblPeriod";
+            this.lblPeriod.Size = new System.Drawing.Size(48, 19);
+            this.lblPeriod.TabIndex = 7;
+            this.lblPeriod.Text = "Period";
+            // 
+            // comboInterval
+            // 
+            this.comboInterval.FormattingEnabled = true;
+            this.comboInterval.ItemHeight = 23;
+            this.comboInterval.Location = new System.Drawing.Point(169, 166);
+            this.comboInterval.Name = "comboInterval";
+            this.comboInterval.Size = new System.Drawing.Size(191, 29);
+            this.comboInterval.TabIndex = 8;
+            // 
+            // comboPeriod
+            // 
+            this.comboPeriod.FormattingEnabled = true;
+            this.comboPeriod.ItemHeight = 23;
+            this.comboPeriod.Location = new System.Drawing.Point(169, 201);
+            this.comboPeriod.Name = "comboPeriod";
+            this.comboPeriod.Size = new System.Drawing.Size(191, 29);
+            this.comboPeriod.TabIndex = 9;
+            // 
+            // comboPeriod2
+            // 
+            this.comboPeriod2.FormattingEnabled = true;
+            this.comboPeriod2.ItemHeight = 23;
+            this.comboPeriod2.Location = new System.Drawing.Point(571, 201);
+            this.comboPeriod2.Name = "comboPeriod2";
+            this.comboPeriod2.Size = new System.Drawing.Size(191, 29);
+            this.comboPeriod2.TabIndex = 14;
+            // 
+            // comboInterval2
+            // 
+            this.comboInterval2.FormattingEnabled = true;
+            this.comboInterval2.ItemHeight = 23;
+            this.comboInterval2.Location = new System.Drawing.Point(571, 166);
+            this.comboInterval2.Name = "comboInterval2";
+            this.comboInterval2.Size = new System.Drawing.Size(191, 29);
+            this.comboInterval2.TabIndex = 13;
+            // 
+            // lblPeriod2
+            // 
+            this.lblPeriod2.AutoSize = true;
+            this.lblPeriod2.Location = new System.Drawing.Point(502, 201);
+            this.lblPeriod2.Name = "lblPeriod2";
+            this.lblPeriod2.Size = new System.Drawing.Size(48, 19);
+            this.lblPeriod2.TabIndex = 12;
+            this.lblPeriod2.Text = "Period";
+            // 
+            // lblInterval2
+            // 
+            this.lblInterval2.AutoSize = true;
+            this.lblInterval2.Location = new System.Drawing.Point(502, 166);
+            this.lblInterval2.Name = "lblInterval2";
+            this.lblInterval2.Size = new System.Drawing.Size(51, 19);
+            this.lblInterval2.TabIndex = 11;
+            this.lblInterval2.Text = "Interval";
+            // 
+            // chart3
+            // 
+            this.chart3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.chart3.BorderlineColor = System.Drawing.Color.Transparent;
+            chartArea2.BackColor = System.Drawing.Color.Transparent;
+            chartArea2.Name = "Trasaction";
+            this.chart3.ChartAreas.Add(chartArea2);
+            legend2.Enabled = false;
+            legend2.Name = "Legend1";
+            this.chart3.Legends.Add(legend2);
+            this.chart3.Location = new System.Drawing.Point(499, 247);
+            this.chart3.Name = "chart3";
+            this.chart3.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Pastel;
+            this.chart3.PaletteCustomColors = new System.Drawing.Color[] {
+        System.Drawing.Color.DeepSkyBlue};
+            series2.ChartArea = "Trasaction";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
+            series2.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            series2.Legend = "Legend1";
+            series2.Name = "Transactions";
+            this.chart3.Series.Add(series2);
+            this.chart3.Size = new System.Drawing.Size(347, 247);
+            this.chart3.TabIndex = 10;
+            this.chart3.Text = "Transactions";
+            title2.Name = "Annual Sales";
+            this.chart3.Titles.Add(title2);
+            // 
+            // comboPeriod3
+            // 
+            this.comboPeriod3.FormattingEnabled = true;
+            this.comboPeriod3.ItemHeight = 23;
+            this.comboPeriod3.Location = new System.Drawing.Point(966, 201);
+            this.comboPeriod3.Name = "comboPeriod3";
+            this.comboPeriod3.Size = new System.Drawing.Size(191, 29);
+            this.comboPeriod3.TabIndex = 19;
+            // 
+            // comboInterval3
+            // 
+            this.comboInterval3.FormattingEnabled = true;
+            this.comboInterval3.ItemHeight = 23;
+            this.comboInterval3.Location = new System.Drawing.Point(966, 166);
+            this.comboInterval3.Name = "comboInterval3";
+            this.comboInterval3.Size = new System.Drawing.Size(191, 29);
+            this.comboInterval3.TabIndex = 18;
+            // 
+            // lblPeriod3
+            // 
+            this.lblPeriod3.AutoSize = true;
+            this.lblPeriod3.Location = new System.Drawing.Point(897, 201);
+            this.lblPeriod3.Name = "lblPeriod3";
+            this.lblPeriod3.Size = new System.Drawing.Size(48, 19);
+            this.lblPeriod3.TabIndex = 17;
+            this.lblPeriod3.Text = "Period";
+            // 
+            // lblInterval3
+            // 
+            this.lblInterval3.AutoSize = true;
+            this.lblInterval3.Location = new System.Drawing.Point(897, 166);
+            this.lblInterval3.Name = "lblInterval3";
+            this.lblInterval3.Size = new System.Drawing.Size(51, 19);
+            this.lblInterval3.TabIndex = 16;
+            this.lblInterval3.Text = "Interval";
+            // 
+            // chartProducts
+            // 
+            this.chartProducts.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.chartProducts.BorderlineColor = System.Drawing.Color.Transparent;
+            chartArea1.BackColor = System.Drawing.Color.Transparent;
+            chartArea1.Name = "Products";
+            this.chartProducts.ChartAreas.Add(chartArea1);
+            legend1.Enabled = false;
+            legend1.Name = "Legend1";
+            this.chartProducts.Legends.Add(legend1);
+            this.chartProducts.Location = new System.Drawing.Point(894, 247);
+            this.chartProducts.Name = "chartProducts";
+            this.chartProducts.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
+            this.chartProducts.PaletteCustomColors = new System.Drawing.Color[] {
+        System.Drawing.Color.DeepSkyBlue};
+            series1.ChartArea = "Products";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
             series1.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.salesChart.Series.Add(series1);
-            this.salesChart.Size = new System.Drawing.Size(395, 246);
-            this.salesChart.TabIndex = 5;
-            this.salesChart.Text = "chart3";
+            series1.Name = "Products";
+            series1.YValuesPerPoint = 2;
+            this.chartProducts.Series.Add(series1);
+            this.chartProducts.Size = new System.Drawing.Size(347, 247);
+            this.chartProducts.TabIndex = 15;
+            this.chartProducts.Text = "Transactions";
             title1.Name = "Annual Sales";
-            this.salesChart.Titles.Add(title1);
+            this.chartProducts.Titles.Add(title1);
             // 
             // MainFrm
             // 
@@ -1346,7 +1550,7 @@
             this.Controls.Add(this.tabImgSettings);
             this.Controls.Add(this.tabImgInventory);
             this.Controls.Add(this.tabImgCshReg);
-            this.Controls.Add(this.metroPanel1);
+            this.Controls.Add(this.pnlSuper);
             this.Controls.Add(this.appName2);
             this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 3F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1356,10 +1560,12 @@
             this.MinimizeBox = false;
             this.Name = "MainFrm";
             this.Padding = new System.Windows.Forms.Padding(7, 60, 7, 7);
-            this.metroPanel1.ResumeLayout(false);
-            this.metroPanel1.PerformLayout();
-            this.tileDshSales.ResumeLayout(false);
+            this.Style = MetroFramework.MetroColorStyle.Silver;
+            this.pnlSuper.ResumeLayout(false);
+            this.pnlSuper.PerformLayout();
+            this.pnlMain.ResumeLayout(false);
             this.tabMain.ResumeLayout(false);
+            this.tabMain.PerformLayout();
             this.panelProducts.ResumeLayout(false);
             this.panelSales.ResumeLayout(false);
             this.tileCshReg.ResumeLayout(false);
@@ -1394,6 +1600,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.metroPanel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.salesChart)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartProducts)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1403,9 +1611,9 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label appName2;
-        private MetroFramework.Controls.MetroPanel metroPanel1;
+        private MetroFramework.Controls.MetroPanel pnlSuper;
         private MetroFramework.Components.MetroStyleManager msmMain;
-        private MetroFramework.Controls.MetroTabControl tileDshSales;
+        private MetroFramework.Controls.MetroTabControl pnlMain;
         private MetroFramework.Controls.MetroTabPage tileCshReg;
         private MetroFramework.Controls.MetroTile tabImgDashboard;
         private MetroFramework.Controls.MetroTile tabImgCshReg;
@@ -1491,9 +1699,23 @@
         private MetroFramework.Controls.MetroPanel panelProducts;
         private MetroFramework.Controls.MetroTile tileProducts;
         private MetroFramework.Controls.MetroPanel panelSales;
-        private MetroFramework.Controls.MetroTile metroTile1;
+        private MetroFramework.Controls.MetroTile tileDshSales;
         private System.Windows.Forms.DataVisualization.Charting.Chart salesChart;
         private MetroFramework.Controls.MetroPanel metroPanel3;
         private MetroFramework.Controls.MetroTile tileTrnsct;
+        private MetroFramework.Controls.MetroComboBox comboPeriod3;
+        private MetroFramework.Controls.MetroComboBox comboInterval3;
+        private MetroFramework.Controls.MetroLabel lblPeriod3;
+        private MetroFramework.Controls.MetroLabel lblInterval3;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartProducts;
+        private MetroFramework.Controls.MetroComboBox comboPeriod2;
+        private MetroFramework.Controls.MetroComboBox comboInterval2;
+        private MetroFramework.Controls.MetroLabel lblPeriod2;
+        private MetroFramework.Controls.MetroLabel lblInterval2;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart3;
+        private MetroFramework.Controls.MetroComboBox comboPeriod;
+        private MetroFramework.Controls.MetroComboBox comboInterval;
+        private MetroFramework.Controls.MetroLabel lblPeriod;
+        private MetroFramework.Controls.MetroLabel lblSalesInterval;
     }
 }

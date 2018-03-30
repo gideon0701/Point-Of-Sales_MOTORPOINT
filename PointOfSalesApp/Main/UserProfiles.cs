@@ -16,5 +16,10 @@ namespace PointOfSalesApp.Main
         {
             InitializeComponent();
         }
+
+        private void UserProfiles_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
