@@ -103,6 +103,16 @@ namespace PointOfSalesApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap btnScan {
+            get {
+                object obj = ResourceManager.GetObject("btnScan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cabildo_motor_parts_pos {
             get {
                 object obj = ResourceManager.GetObject("cabildo motor parts pos", resourceCulture);
@@ -353,6 +363,16 @@ namespace PointOfSalesApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Group_741 {
+            get {
+                object obj = ResourceManager.GetObject("Group 741", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Group_76 {
             get {
                 object obj = ResourceManager.GetObject("Group 76", resourceCulture);
@@ -556,6 +576,36 @@ namespace PointOfSalesApp.Properties {
         internal static System.Drawing.Bitmap user1_icon1 {
             get {
                 object obj = ResourceManager.GetObject("user1 icon1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wholesale {
+            get {
+                object obj = ResourceManager.GetObject("wholesale", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wholesale_side {
+            get {
+                object obj = ResourceManager.GetObject("wholesale_side", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wholesale2 {
+            get {
+                object obj = ResourceManager.GetObject("wholesale2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

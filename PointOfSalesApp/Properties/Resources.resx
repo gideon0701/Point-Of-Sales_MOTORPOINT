@@ -118,14 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Group 135" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 135.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="cabildo motor parts pos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cabildo motor parts pos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Group 20" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calendar@2x1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar@2x1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user1 icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user1 icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,14 +133,17 @@
   <data name="lock ico@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lock ico@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user icon@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user icon@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cabildo motor parts pos_32icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cabildo motor parts pos_32icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user1 icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user1 icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dasboard 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dasboard 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="prodicts" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\prodicts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="user icon@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user icon@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Group 76" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 76.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,11 +160,17 @@
   <data name="CLOSE ICON THIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CLOSE ICON THIN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="wholesale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wholesale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="sales" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sales.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="footer logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\footer logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group 74" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 74.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="calendar icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\calendar icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,8 +178,8 @@
   <data name="Group 72" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Group 73" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 73.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dasboard 2@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dasboard 2@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="1users" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1users.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,17 +202,20 @@
   <data name="1Reports" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1Reports.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Group 84" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 84.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cabildo motor parts pos@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cabildo motor parts pos@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user1 icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user1 icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Group 130" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 130.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wholesale_side" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wholesale_side.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="about" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\about.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Group 86" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 86.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Group 741" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 741.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="motorpoint logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\motorpoint logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -217,20 +229,23 @@
   <data name="Group 136" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 136.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cabildo motor parts pos_32icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cabildo motor parts pos_32icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Group 71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 71.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="calendar@2x1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\calendar@2x1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Group 73" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 73.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="update-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\update-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user1 icon@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user1 icon@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="motorpoint logo_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\motorpoint logo_white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Group 74" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 74.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Group 86" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 86.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="add items" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\add items.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -241,14 +256,11 @@
   <data name="update-icon@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\update-icon@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cabildo motor parts pos@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cabildo motor parts pos@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Group 84" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 84.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Group 130" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 130.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dasboard 2@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dasboard 2@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Group 135" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 135.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="save icon@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\save icon@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -256,16 +268,19 @@
   <data name="Group 24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="update-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\update-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="prodicts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prodicts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Group 71" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 71.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="wholesale2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wholesale2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Group 73@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 73@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="motorpoint logo_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\motorpoint logo_white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btnScan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnScan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

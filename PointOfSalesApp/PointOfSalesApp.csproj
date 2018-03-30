@@ -96,6 +96,12 @@
     <Compile Include="Main\UpdateForm.Designer.cs">
       <DependentUpon>UpdateForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Main\Wholesale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\Wholesale.Designer.cs">
+      <DependentUpon>Wholesale.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Login\Form1.resx">
@@ -109,6 +115,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Main\UpdateForm.resx">
       <DependentUpon>UpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Wholesale.resx">
+      <DependentUpon>Wholesale.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -144,6 +153,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MetroFramework.txt" />
+    <None Include="Resources\btnScan.png" />
+    <None Include="Resources\wholesale_side.png" />
+    <None Include="Resources\Group 741.png" />
+    <None Include="Resources\wholesale2.png" />
+    <None Include="Resources\wholesale.png" />
     <None Include="Resources\motorpoint logo_white.png" />
     <None Include="Resources\about.png" />
     <None Include="Resources\1users.png" />

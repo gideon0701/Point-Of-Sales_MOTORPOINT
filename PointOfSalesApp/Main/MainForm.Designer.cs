@@ -202,7 +202,7 @@
             this.Transaction.ItemSize = new System.Drawing.Size(135, 34);
             this.Transaction.Location = new System.Drawing.Point(15, 22);
             this.Transaction.Name = "Transaction";
-            this.Transaction.SelectedIndex = 3;
+            this.Transaction.SelectedIndex = 1;
             this.Transaction.Size = new System.Drawing.Size(1301, 682);
             this.Transaction.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.Transaction.Style = MetroFramework.MetroColorStyle.Green;
@@ -451,10 +451,10 @@
             this.lblVAT.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.lblVAT.Location = new System.Drawing.Point(-1, 491);
             this.lblVAT.Name = "lblVAT";
-            this.lblVAT.Size = new System.Drawing.Size(62, 15);
+            this.lblVAT.Size = new System.Drawing.Size(55, 15);
             this.lblVAT.Style = MetroFramework.MetroColorStyle.Black;
             this.lblVAT.TabIndex = 22;
-            this.lblVAT.Text = "VAT(12%)";
+            this.lblVAT.Text = "VAT(3%)";
             this.lblVAT.Theme = MetroFramework.MetroThemeStyle.Light;
             this.lblVAT.UseStyleColors = true;
             // 
@@ -1062,7 +1062,7 @@
             this.metroTile5.PaintTileCount = false;
             this.metroTile5.Size = new System.Drawing.Size(100, 96);
             this.metroTile5.TabIndex = 6;
-            this.metroTile5.TileImage = global::PointOfSalesApp.Properties.Resources.Group_72;
+            this.metroTile5.TileImage = global::PointOfSalesApp.Properties.Resources.wholesale2;
             this.metroTile5.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.metroTile5.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
             this.metroTile5.UseTileImage = true;
@@ -1088,7 +1088,7 @@
             this.tileVoid.PaintTileCount = false;
             this.tileVoid.Size = new System.Drawing.Size(100, 96);
             this.tileVoid.TabIndex = 8;
-            this.tileVoid.TileImage = global::PointOfSalesApp.Properties.Resources.Group_74;
+            this.tileVoid.TileImage = global::PointOfSalesApp.Properties.Resources.Group_741;
             this.tileVoid.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.tileVoid.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
             this.tileVoid.UseTileImage = true;
