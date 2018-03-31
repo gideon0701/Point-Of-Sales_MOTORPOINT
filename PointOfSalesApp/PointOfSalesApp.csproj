@@ -96,6 +96,12 @@
     <Compile Include="Main\UpdateForm.Designer.cs">
       <DependentUpon>UpdateForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Main\UpdateUserProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\UpdateUserProfile.Designer.cs">
+      <DependentUpon>UpdateUserProfile.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main\UserProfiles.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,6 +127,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Main\UpdateForm.resx">
       <DependentUpon>UpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\UpdateUserProfile.resx">
+      <DependentUpon>UpdateUserProfile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\UserProfiles.resx">
       <DependentUpon>UserProfiles.cs</DependentUpon>

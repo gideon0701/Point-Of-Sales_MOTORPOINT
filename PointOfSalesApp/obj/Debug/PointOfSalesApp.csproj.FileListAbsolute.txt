@@ -61,3 +61,4 @@ C:\Users\mcamama\Documents\GitHub\Point-Of-Sales_MOTORPOINT\PointOfSalesApp\bin\
 C:\Users\mcamama\Documents\GitHub\Point-Of-Sales_MOTORPOINT\PointOfSalesApp\obj\Debug\PointOfSalesApp.Properties.Resources.resources
 C:\Users\mcamama\Documents\GitHub\Point-Of-Sales_MOTORPOINT\PointOfSalesApp\obj\Debug\PointOfSalesApp.csproj.CoreCompileInputs.cache
 C:\Users\mcamama\Documents\GitHub\Point-Of-Sales_MOTORPOINT\PointOfSalesApp\obj\Debug\PointOfSalesApp.csprojResolveAssemblyReference.cache
+C:\Users\mcamama\Documents\GitHub\Point-Of-Sales_MOTORPOINT\PointOfSalesApp\obj\Debug\PointOfSalesApp.Main.UpdateUserProfile.resources

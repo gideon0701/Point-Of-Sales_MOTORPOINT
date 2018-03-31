@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace PointOfSalesApp.Main
 {
-    public partial class MainFrm : MetroFramework.Forms.MetroForm
+    public partial class UpdateUserProfile : MetroFramework.Forms.MetroForm
     {
-        public MainFrm()
+        public UpdateUserProfile()
         {
             InitializeComponent();
         }
-
     }
 }

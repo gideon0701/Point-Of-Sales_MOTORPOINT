@@ -32,28 +32,28 @@
             this.btnAddUser = new System.Windows.Forms.Button();
             this.btnBackUsrPr = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblUserName = new System.Windows.Forms.Label();
-            this.userPic = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lblUserName = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.btnCloseUsrForm = new System.Windows.Forms.Button();
             this.btnaUpdateUsr = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.btnCloseUsrForm = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.userPic = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.userPic)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.userPic)).BeginInit();
             this.SuspendLayout();
             // 
             // lblEmpMngt
@@ -99,35 +99,15 @@
             this.panel1.Size = new System.Drawing.Size(147, 75);
             this.panel1.TabIndex = 10;
             // 
-            // lblUserName
+            // label3
             // 
-            this.lblUserName.AutoSize = true;
-            this.lblUserName.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUserName.Location = new System.Drawing.Point(10, 13);
-            this.lblUserName.Name = "lblUserName";
-            this.lblUserName.Size = new System.Drawing.Size(128, 17);
-            this.lblUserName.TabIndex = 0;
-            this.lblUserName.Text = "ROMAINE CABILDO";
-            // 
-            // userPic
-            // 
-            this.userPic.BackColor = System.Drawing.Color.White;
-            this.userPic.Image = global::PointOfSalesApp.Properties.Resources.userSam2;
-            this.userPic.Location = new System.Drawing.Point(0, 0);
-            this.userPic.Name = "userPic";
-            this.userPic.Size = new System.Drawing.Size(147, 150);
-            this.userPic.TabIndex = 11;
-            this.userPic.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(33, 30);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 17);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "Administrator";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(103, 47);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(15, 17);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "1";
             // 
             // label2
             // 
@@ -139,15 +119,25 @@
             this.label2.TabIndex = 13;
             this.label2.Text = "Employee #:";
             // 
-            // label3
+            // label1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(103, 47);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(15, 17);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "1";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(33, 30);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(81, 17);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "Administrator";
+            // 
+            // lblUserName
+            // 
+            this.lblUserName.AutoSize = true;
+            this.lblUserName.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUserName.Location = new System.Drawing.Point(10, 13);
+            this.lblUserName.Name = "lblUserName";
+            this.lblUserName.Size = new System.Drawing.Size(128, 17);
+            this.lblUserName.TabIndex = 0;
+            this.lblUserName.Text = "ROMAINE CABILDO";
             // 
             // panel2
             // 
@@ -166,16 +156,6 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(147, 160);
             this.panel3.TabIndex = 14;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.Image = global::PointOfSalesApp.Properties.Resources.userSam2;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(147, 150);
-            this.pictureBox1.TabIndex = 11;
-            this.pictureBox1.TabStop = false;
             // 
             // panel4
             // 
@@ -228,18 +208,6 @@
             this.label7.TabIndex = 0;
             this.label7.Text = "Name";
             // 
-            // btnCloseUsrForm
-            // 
-            this.btnCloseUsrForm.BackgroundImage = global::PointOfSalesApp.Properties.Resources.CLOSE_ICON_THIN;
-            this.btnCloseUsrForm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnCloseUsrForm.FlatAppearance.BorderSize = 0;
-            this.btnCloseUsrForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCloseUsrForm.Location = new System.Drawing.Point(892, 32);
-            this.btnCloseUsrForm.Name = "btnCloseUsrForm";
-            this.btnCloseUsrForm.Size = new System.Drawing.Size(28, 31);
-            this.btnCloseUsrForm.TabIndex = 16;
-            this.btnCloseUsrForm.UseVisualStyleBackColor = false;
-            // 
             // btnaUpdateUsr
             // 
             this.btnaUpdateUsr.BackColor = System.Drawing.Color.Red;
@@ -251,7 +219,7 @@
             this.btnaUpdateUsr.Location = new System.Drawing.Point(327, 371);
             this.btnaUpdateUsr.Name = "btnaUpdateUsr";
             this.btnaUpdateUsr.Size = new System.Drawing.Size(89, 31);
-            this.btnaUpdateUsr.TabIndex = 15;
+            this.btnaUpdateUsr.TabIndex = 1;
             this.btnaUpdateUsr.Text = "Update";
             this.btnaUpdateUsr.UseVisualStyleBackColor = false;
             // 
@@ -266,9 +234,43 @@
             this.button1.Location = new System.Drawing.Point(526, 371);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(89, 31);
-            this.button1.TabIndex = 17;
+            this.button1.TabIndex = 2;
             this.button1.Text = "Update";
             this.button1.UseVisualStyleBackColor = false;
+            // 
+            // btnCloseUsrForm
+            // 
+            this.btnCloseUsrForm.BackgroundImage = global::PointOfSalesApp.Properties.Resources.CLOSE_ICON_THIN;
+            this.btnCloseUsrForm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnCloseUsrForm.FlatAppearance.BorderSize = 0;
+            this.btnCloseUsrForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCloseUsrForm.Location = new System.Drawing.Point(892, 32);
+            this.btnCloseUsrForm.Name = "btnCloseUsrForm";
+            this.btnCloseUsrForm.Size = new System.Drawing.Size(28, 31);
+            this.btnCloseUsrForm.TabIndex = 3;
+            this.btnCloseUsrForm.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.White;
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Image = global::PointOfSalesApp.Properties.Resources.userSam2;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(147, 150);
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            // 
+            // userPic
+            // 
+            this.userPic.BackColor = System.Drawing.Color.White;
+            this.userPic.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.userPic.Image = global::PointOfSalesApp.Properties.Resources.userSam2;
+            this.userPic.Location = new System.Drawing.Point(0, 0);
+            this.userPic.Name = "userPic";
+            this.userPic.Size = new System.Drawing.Size(147, 150);
+            this.userPic.TabIndex = 11;
+            this.userPic.TabStop = false;
             // 
             // UserProfiles
             // 
@@ -293,12 +295,12 @@
             this.Load += new System.EventHandler(this.UserProfiles_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.userPic)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.userPic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
