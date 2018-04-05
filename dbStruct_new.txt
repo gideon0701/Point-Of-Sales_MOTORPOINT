@@ -1,0 +1,45 @@
+[dbo.user]
+id/employeeNumber [int]
+name [varchar(100)]
+username[Varchar(50)]
+usergroupID[int]
+designation[varchar(50)]
+address[varchar(100))]
+contact(varchar(100)]
+email[varchar(50)]
+birthdate[varchar(50)]
+age[int]
+contact Person[varchar(100)]
+emergencyContactNum[varchar(50)]
+password[varchar(50)]
+photo[blob(small)]
+
+[dbo.product]
+id [int, pk]
+name [varchar]
+price per unit [double]
+quantity [double]
+isAvailable [int] //1 for true and 0 for false
+number of product to discount [int] //nullable
+discount % [int]
+
+[dbo.SalesTransaction]
+id [int, pk]
+date_of_transaction [double] //yyyyMMddHHmmss 
+subtotal_amount [double]
+tax_amount [double]
+total_price amount [double]
+total_discount amount [double]
+amount_paid [double]
+
+
+[dbo.itemsSold]
+id [int, pk]
+sales id [int, fk]
+product id [int, fk]
+quantity sold [int]
+price per unit [double]
+
+
+
+
