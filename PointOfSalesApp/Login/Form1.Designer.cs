@@ -65,10 +65,10 @@ namespace PointOfSalesApp
             this.appName1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.appName1.AutoSize = true;
             this.appName1.BackColor = System.Drawing.Color.Transparent;
-            this.appName1.Font = new System.Drawing.Font("Helvetica Neue", 24.75F);
+            this.appName1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24.75F);
             this.appName1.Location = new System.Drawing.Point(42, 128);
             this.appName1.Name = "appName1";
-            this.appName1.Size = new System.Drawing.Size(236, 38);
+            this.appName1.Size = new System.Drawing.Size(240, 38);
             this.appName1.TabIndex = 8;
             this.appName1.Text = "MOTORPOINT";
             this.appName1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -78,10 +78,10 @@ namespace PointOfSalesApp
             this.appName2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.appName2.AutoSize = true;
             this.appName2.BackColor = System.Drawing.Color.Transparent;
-            this.appName2.Font = new System.Drawing.Font("Helvetica Neue", 11.25F);
+            this.appName2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.appName2.Location = new System.Drawing.Point(50, 161);
             this.appName2.Name = "appName2";
-            this.appName2.Size = new System.Drawing.Size(221, 17);
+            this.appName2.Size = new System.Drawing.Size(216, 18);
             this.appName2.TabIndex = 2;
             this.appName2.Text = "motorcyle parts and accesories";
             this.appName2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -170,6 +170,7 @@ namespace PointOfSalesApp
             this.txtPassword.Size = new System.Drawing.Size(185, 23);
             this.txtPassword.TabIndex = 2;
             this.txtPassword.Text = "password";
+            this.txtPassword.Click += new System.EventHandler(this.txtPassword_Click);
             // 
             // appLogo
             // 
@@ -201,7 +202,7 @@ namespace PointOfSalesApp
             this.lblDisc1.FontSize = MetroFramework.MetroLabelSize.Small;
             this.lblDisc1.Location = new System.Drawing.Point(66, 552);
             this.lblDisc1.Name = "lblDisc1";
-            this.lblDisc1.Size = new System.Drawing.Size(188, 15);
+            this.lblDisc1.Size = new System.Drawing.Size(191, 15);
             this.lblDisc1.TabIndex = 9;
             this.lblDisc1.Text = "MOTORPOINT Point of Sales System";
             // 
@@ -212,13 +213,13 @@ namespace PointOfSalesApp
             this.lblDisc2.FontSize = MetroFramework.MetroLabelSize.Small;
             this.lblDisc2.Location = new System.Drawing.Point(91, 567);
             this.lblDisc2.Name = "lblDisc2";
-            this.lblDisc2.Size = new System.Drawing.Size(139, 15);
+            this.lblDisc2.Size = new System.Drawing.Size(140, 15);
             this.lblDisc2.TabIndex = 10;
             this.lblDisc2.Text = "All Rights Reserved ©2018";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(315, 600);
             this.Controls.Add(this.lblDisc2);
@@ -230,7 +231,7 @@ namespace PointOfSalesApp
             this.Controls.Add(this.appLogo);
             this.Controls.Add(this.appName2);
             this.Controls.Add(this.appName1);
-            this.Font = new System.Drawing.Font("Helvetica Neue", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(315, 600);

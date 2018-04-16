@@ -26,5 +26,11 @@ namespace PointOfSalesApp
         {
 
         }
+
+        private void txtPassword_Click(object sender, EventArgs e)
+        {
+            TextBox txtPassword = new TextBox();
+            txtPassword.PasswordChar = '*';
+        }
     }
 }
